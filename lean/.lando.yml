@@ -1,0 +1,4 @@
+name: brentjong.space----lean
+recipe: lamp
+config:
+  webroot: .
