@@ -14,7 +14,7 @@
         <meta name="geo.position" content="46.950256;7.443965" />
         <meta name="ICBM" content="46.950256, 7.443965" />
         <meta name="geo.region" content="CH-VS" />
-        <meta name="geo.placename" content="Brentjong" />
+        <meta name="geo.placename" content="Brentjong, Leuk/Loèche, Wallis/Valais" />
         <meta name="geo.position" content="46.317660;7.652257" />
         <meta name="ICBM" content="46.317660, 7.652257" />
         <meta property="og:site_name" content="brentjong.space — a permaculture garden/space curated by Satellites of Love Association">
@@ -33,6 +33,10 @@
                 padding: 0;
         }
         body {
+                --brentjong-space--color--base: #17ff2142;
+                --brentjong-space--color--action: #ff002b;
+                --brentjong-space--layout--padding: 2em;
+
                 font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
                 color: #000;
                 font-size: 1em;
@@ -43,9 +47,9 @@
                 align-items: center;
                 justify-content: center;
 
-                min-height: calc(100vh - 2em);
-                min-width: calc(100vw - 2em);
-                border: 1em #17ff2142 solid;
+                min-height: calc(100vh - var(--brentjong-space--layout--padding));
+                min-width: calc(100vw - var(--brentjong-space--layout--padding));
+                border: calc(var(--brentjong-space--layout--padding)/2) var(--brentjong-space--color--base) solid;
                 overflow-x: hidden;
         }
         img {
@@ -53,7 +57,7 @@
         }
         h1 {
                 font-size: 4em;
-                padding-bottom: 1em;
+                padding-block-end: 1em;
                 font-weight: normal;
                 line-height: 120%;
         }
@@ -62,19 +66,25 @@
                 line-height: 130%;
                 max-width: 50ch;
                 word-wrap: break-word;
+                padding-block-end: calc(0.5 * var(--brentjong-space--layout--padding));
         }
-        p + p {
-                padding-top: 2em;
+        p.universe {
+                padding-block-end: var(--brentjong-space--layout--padding);
+        }
+        p:last-child {
+                padding-block-end: 0;
+        }
+
+        a, a:visited, a:hover {
+                text-decoration: underline;
+                text-decoration-thickness: 0.2rem;
         }
         a, a:visited {
                 color: #000000;
-                text-decoration: underline;
-                text-decoration-thickness: 0.2rem;
+                text-shadow: 0 0 15px var(--brentjong-space--color--base);
         }
         a:hover {
-                color: #ff002b;
-                text-decoration: underline;
-                text-decoration-thickness: 0.2rem;
+                color: var(--brentjong-space--color--action);
         }
         .content {
                 padding: 4em 1em;
@@ -148,19 +158,18 @@
 <body>
         <main class="content">
                 <h1><span role="img" aria-label="grapes">🍇</span><span role="img" aria-label="plants">🌿</span>.<span role="img" aria-label="space">👽</span></h1>
-                <p>We <span class="hidden">and our fellow friends</span>create organic, natural wines <span class="hidden">in Bern, Leuk, Ayent, La Neuveville and Zürich</span> from Pinot Noir grapes of our vineyards in the Swiss Alps — Brentjong 📡 (950m), Valais.</p>
-                <p>
+                <p>We <span class="hidden">and our fellow friends</span>create organic, natural wines <span class="hidden">in Bern, Leuk, Ayent, La Neuveville and Zürich</span> from Pinot Noir grapes of our vineyards in the Swiss Alps — Brentjong 📡 (950m), Leuk (Valais).</p>
+                <p class="universe" role="presentation">
                         🛸　　　 　🌎　°　　🌓　•　　.°•　　　🚀 ✯
                         <br>
                         　　　★　*　　　　　°　　　　🛰 　°·　　                           🪐
                         <br>
                         .　　　•　° ★　•  ☄
-                        <br>
-                        <br>
-                        <br>
+                </p>
+                <p>
                         You give us your email — we give you information about our wine project 😘 <a href="https://forms.gle/xrE5mkSN6cuhj8DcA" title="Google Docs Newsletter subscription form" rel="nofollow">Subscribe to our newsletter</a> 🚀
-                        <br>
-                        <br>
+                </p>
+                <p>
                         — a permaculture space curated by <a class="link" href="https://www.instagram.com/satellites.of.love" rel="nofollow">📡 of ❤️
                                 <em class="link__satellite">🛰
                                         <em class="link__satellite">❤️
