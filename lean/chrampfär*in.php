@@ -185,7 +185,7 @@
 
 
                 </ul>
-                <p>Bisch där bii? Du trags du ii und spread 😘 some <span role="img" aria-label="love">❤️‍🔥🥰😍❤️</span> into space mit iisch. Wir freuwä iisch 🖤 — und fiir alli üssär schwiizer: join us on the above dates and participate in the vinyard 🤗</p>
+                <p>Bisch öi där bii? Du trags du ii und spread 😘 some <span role="img" aria-label="love">❤️‍🔥🥰😍❤️</span> into space mit iisch. Wir freuwä iisch 🖤 — und fiir alli üssär schwiizer: join us on the above dates and participate in the vinyard 🤗</p>
                 <p>
                         <a title="Brentjong dot Space" href="/">Brentjong.space</a> — a permaculture space curated by
                 </p>
