@@ -72,6 +72,7 @@
                 font-weight: normal;
                 line-height: 120%;
                 hyphens: auto;
+                -webkit-hyphens: auto;
         }
         p, ul {
                 font-size: 2em;
@@ -80,11 +81,11 @@
                 word-wrap: break-word;
                 padding-block-end: calc(0.5 * var(--brentjong-space--layout--padding));
         }
+        .content:last-child {
+                padding-block-end: 0;
+        }
         p.universe {
                 padding-block-end: var(--brentjong-space--layout--padding);
-        }
-        p:last-child {
-                padding-block-end: 0;
         }
         .date-list { margin-inline-start: 1.2em; }
         @media (max-width: 700px) {
@@ -123,6 +124,12 @@
         .link:hover .link__satellite {
                 animation: spinning-edgy 1.9s infinite;
                 /* animation: spinning-harmonious 1.3s infinite; */
+        }
+        .credits {
+                padding-block-start: var(--brentjong-space--layout--padding);
+        }
+        .credits * {
+                font-size: 0.5em;
         }
 
         @media (prefers-reduced-motion) {
@@ -207,6 +214,9 @@
                 <p>
                         You give us your email — we give you information about our wine project 😘 <a href="https://forms.gle/xrE5mkSN6cuhj8DcA" title="Google Docs Newsletter subscription form" rel="nofollow">Subscribe to our newsletter</a> 🚀
                 </p>
+                <footer>
+                        <p class="credits"><span>Made with ❤️‍🔥 &nbsp;by&nbsp;</span><a href="https://yokai.ch">Yokai</a></p>
+                </footer>
         </main>
 </body>
 </html>

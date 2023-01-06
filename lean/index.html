@@ -37,6 +37,7 @@
                 --brentjong-space--color--highlighted: #ec0dad42;
                 --brentjong-space--color--action: #ff002b;
                 --brentjong-space--layout--padding: 2em;
+                --brentjong-space--layout--breakpoint--s: 700px;
 
                 font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
                 color: #000;
@@ -49,9 +50,18 @@
                 justify-content: center;
 
                 min-height: calc(100vh - var(--brentjong-space--layout--padding));
-                min-width: calc(100vw - var(--brentjong-space--layout--padding));
+                /* min-width: calc(100vw - var(--brentjong-space--layout--padding)); */
                 border: calc(var(--brentjong-space--layout--padding)/2) var(--brentjong-space--color--base) solid;
                 overflow-x: hidden;
+                overflow-y: scroll;
+        }
+        @media (max-width: 700px) {
+                body {
+                        font-size: 0.75em;
+                }
+        }
+        .content {
+                padding: 4em 2em;
         }
         img {
                 border-style: none;
@@ -61,21 +71,37 @@
                 padding-block-end: 1em;
                 font-weight: normal;
                 line-height: 120%;
+                hyphens: auto;
+                -webkit-hyphens: auto;
         }
-        p {
+        p, ul {
                 font-size: 2em;
                 line-height: 130%;
                 max-width: 50ch;
                 word-wrap: break-word;
                 padding-block-end: calc(0.5 * var(--brentjong-space--layout--padding));
         }
+        .content:last-child {
+                padding-block-end: 0;
+        }
         p.universe {
                 padding-block-end: var(--brentjong-space--layout--padding);
         }
-        p:last-child {
-                padding-block-end: 0;
+        .date-list { margin-inline-start: 1.2em; }
+        @media (max-width: 700px) {
+                .date-list li {
+                        padding-block-end: 0.5em;
+                }
+                .date-list .dates {
+                        display: block;
+                }
         }
-
+        .date-list li::marker {
+                content: '🚀 ';
+        }
+        .dates--not-fix {
+                text-decoration: wavy underline;
+        }
         a, a:visited, a:hover {
                 text-decoration: underline;
                 text-decoration-thickness: 0.2rem;
@@ -86,11 +112,6 @@
         }
         a:hover {
                 color: var(--brentjong-space--color--action);
-        }
-        .content {
-                padding: 4em 1em;
-
-
         }
         .link {
                 position: relative;
@@ -104,6 +125,13 @@
                 animation: spinning-edgy 1.9s infinite;
                 /* animation: spinning-harmonious 1.3s infinite; */
         }
+        .credits {
+                padding-block-start: var(--brentjong-space--layout--padding);
+        }
+        .credits * {
+                font-size: 0.5em;
+        }
+
         @media (prefers-reduced-motion) {
                 .link:hover .link__satellite {
                         animation: spinning-no 1s;
@@ -173,6 +201,9 @@
                 <p>
                         You give us your email — we give you information about our wine project 😘 <a href="https://forms.gle/xrE5mkSN6cuhj8DcA" title="Google Docs Newsletter subscription form" rel="nofollow">Subscribe to our newsletter</a> 🚀
                 </p>
+                <footer>
+                        <p class="credits"><span>Made with ❤️‍🔥 &nbsp;by&nbsp;</span><a href="https://yokai.ch">Yokai</a></p>
+                </footer>
         </main>
 </body>
 </html>
