@@ -60,6 +60,9 @@
                         font-size: 0.75em;
                 }
         }
+        .content {
+                padding: 4em 2em;
+        }
         img {
                 border-style: none;
         }
@@ -108,9 +111,6 @@
         }
         a:hover {
                 color: var(--brentjong-space--color--action);
-        }
-        .content {
-                padding: 4em 1em;
         }
         .link {
                 position: relative;
