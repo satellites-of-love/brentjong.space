@@ -37,12 +37,14 @@
                 --brentjong-space--color--highlighted: #ec0dad42;
                 --brentjong-space--color--action: #ff002b;
                 --brentjong-space--layout--padding: 2em;
+                --brentjong-space--layout--breakpoint--s: 700px;
 
                 font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
                 color: #000;
                 font-size: 1em;
                 line-height: 100%;
                 line-break: normal;
+                hyphens: auto;
 
                 display: flex;
                 align-items: center;
@@ -52,6 +54,11 @@
                 min-width: calc(100vw - var(--brentjong-space--layout--padding));
                 border: calc(var(--brentjong-space--layout--padding)/2) var(--brentjong-space--color--base) solid;
                 overflow-x: hidden;
+        }
+        @media (max-width: 700px) {
+                body {
+                        font-size: 0.75em;
+                }
         }
         img {
                 border-style: none;
@@ -171,7 +178,7 @@
 </head>
 <body>
         <main class="content">
-                <h1>Caro Chrampfär*in</h1>
+                <h1>Caro Chram&shy;pfär*in</h1>
                 <p>Ditsch Jahr — yup, 2023 — heiwär folgendi Chrampfär*inne Sessions iigeplant:</p>
                 <ul class="date-list">
                         <li><a title="Doodle form Chrampfärli Session Januar" rel="nofollow" href="https://doodle.com/meeting/participate/id/b81j253d">Chrampfärli (Januar)</a>, <span class="dates">23.–26. Januar</span></li>
