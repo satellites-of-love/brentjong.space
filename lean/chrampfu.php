@@ -44,16 +44,16 @@
                 font-size: 1em;
                 line-height: 100%;
                 line-break: normal;
-                hyphens: auto;
 
                 display: flex;
                 align-items: center;
                 justify-content: center;
 
                 min-height: calc(100vh - var(--brentjong-space--layout--padding));
-                min-width: calc(100vw - var(--brentjong-space--layout--padding));
+                /* min-width: calc(100vw - var(--brentjong-space--layout--padding)); */
                 border: calc(var(--brentjong-space--layout--padding)/2) var(--brentjong-space--color--base) solid;
                 overflow-x: hidden;
+                overflow-y: scroll;
         }
         @media (max-width: 700px) {
                 body {
@@ -68,6 +68,7 @@
                 padding-block-end: 1em;
                 font-weight: normal;
                 line-height: 120%;
+                hyphens: auto;
         }
         p, ul {
                 font-size: 2em;
