@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <link
-          href="https://fonts.googleapis.com/css?family=Droid+Sans&display=swap"
-          rel="preload" as="font"
-        />
+        <link href="https://fonts.googleapis.com/css?family=Droid+Sans&display=swap"/>
         <title>brentjong.space — a permaculture garden/space curated by Satellites of Love Association</title>
         <meta name="description" content="brentjong.space is a permaculture garden/space curated by Satellites of Love Association. We make organic alpine wines out of Pinot Noir grapes - Pétillant Naturel (Pet Nat), Blanc de Noir, Rosé, Piquette. No added sulfur dioxide, no additives at all and therefore vegan.">
         <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
