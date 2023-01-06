@@ -186,12 +186,12 @@
                 <h1>Caro Chram&shy;pfär*in</h1>
                 <p>Ditsch Jahr — yup, 2023 — heiwär folgendi Chrampfär*inne Sessions iigeplant:</p>
                 <ul class="date-list">
-                        <li><a title="Doodle form Chrampfärli Session Januar" rel="nofollow" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/b81j253d">Chrampfärli Januar</a>, <span class="dates">23.–26. Januar</span></li>
-                        <li><a title="Doodle form Chrampfärli Session Februar" rel="nofollow" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/ejZzK8Be">Chrampfärli Februar</a>, <span class="dates">15.–18. Februar</span></li>
-                        <li><a title="Doodle form Chrampfärli Session März" rel="nofollow" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/aMwLANGd">Chrampfärli März</a>, <span class="dates">15.–18. März</span></li>
-                        <li><a title="Doodle form Chrampfärli Session Mai" rel="nofollow" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/e91kNjBe">Chrampfärli Mai</a>, <span class="dates">17.–20. Mai(Auffahrt)</span></li>
-                        <li><a title="Doodle form Chrampfärli Session Juni" rel="nofollow" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/e0YW7n7a">Chrampfärli Juni</a>, <span class="dates">7.–10. Juni</span></li>
-                        <li><a title="Doodle form Chrampfärli Session Juli" rel="nofollow" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/dL7Kzrpb">Chrampfärli Juli</a>, <span class="dates">6.–10. Juli</span></li>
+                        <li><a title="Doodle form Chrampfärli Session Januar" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/b81j253d">Chrampfärli Januar</a>, <span class="dates">23.–26. Januar</span></li>
+                        <li><a title="Doodle form Chrampfärli Session Februar" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/ejZzK8Be">Chrampfärli Februar</a>, <span class="dates">15.–18. Februar</span></li>
+                        <li><a title="Doodle form Chrampfärli Session März" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/aMwLANGd">Chrampfärli März</a>, <span class="dates">15.–18. März</span></li>
+                        <li><a title="Doodle form Chrampfärli Session Mai" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/e91kNjBe">Chrampfärli Mai</a>, <span class="dates">17.–20. Mai(Auffahrt)</span></li>
+                        <li><a title="Doodle form Chrampfärli Session Juni" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/e0YW7n7a">Chrampfärli Juni</a>, <span class="dates">7.–10. Juni</span></li>
+                        <li><a title="Doodle form Chrampfärli Session Juli" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/dL7Kzrpb">Chrampfärli Juli</a>, <span class="dates">6.–10. Juli</span></li>
                         <li>Wimdu 2023, <span class="dates dates--not-fix">August~September</span></li>
 
 
