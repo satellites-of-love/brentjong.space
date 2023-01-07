@@ -99,20 +99,38 @@
         .dates--not-fix {
                 text-decoration: wavy underline;
         }
-        a, a:visited, a:hover {
+        
+        /* Link style v1 */
+        /* a, a:visited, a:hover {
                 text-decoration: underline;
                 text-decoration-thickness: 0.2rem;
-        }
-        a, a:visited {
-                color: #000000;
+                color: inherit;
                 text-shadow: 0 0 5px var(--brentjong-space--color--highlighted);
         }
-        a:hover {
+        a:hover, a:focus {
                 color: var(--brentjong-space--color--action);
+        } */
+        /* Link style v2 */
+        a, a:focus, a:hover, a:visited {
+                color: inherit;
+                text-decoration: none;
+                text-shadow: 0 0 5px var(--brentjong-space--color--highlighted);
         }
-        .link {
-                position: relative;
+        a {
+                display: inline;
+                background-image: linear-gradient(#000,#000);
+                background-repeat: no-repeat;
+                background-position: 100% 100%;
+                background-size: 100% 0.1em;
+                transition: background 0.8s cubic-bezier(.77,0,.175,1);
         }
+
+        a:focus, a:hover {
+                color: var(--brentjong-space--color--action);
+                background-size: 0 0.1em;
+                transition: background 1s cubic-bezier(.645,.045,.355,1);
+        }
+
         .link .link__satellite {
                 font-style: normal;
                 position: absolute;
@@ -122,6 +140,9 @@
                 animation: spinning-edgy 1.9s infinite;
                 /* animation: spinning-harmonious 1.3s infinite; */
         }
+
+
+
         .credits {
                 padding-block-start: var(--brentjong-space--layout--padding);
         }
