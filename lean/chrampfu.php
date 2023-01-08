@@ -204,10 +204,10 @@
 </head>
 <body>
         <main class="content">
-                <h1>Caro Chram&shy;pfär*in</h1>
-                <p>Ditsch Jahr — yup, 2023 — heiwär folgendi Chrampfär*inne Sessions iigeplant:</p>
+                <h1>Salut Chram&shy;pfär*in</h1>
+                <p>Diz Jahr — yup, 2023 — heiwär folgundi Chrampfär*inne Sessions iigeplant:</p>
                 <ul class="date-list">
-                        <li><a title="Doodle form Chrampfärli Session Januar" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/b81j253d">Chrampfärli Januar</a>, <span class="dates">23.–26. Januar</span></li>
+                        <li><a title="Doodle form Chrampfärli Session Januar" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/b81j253d">Chrampfärli Januar</a>, <span class="dates">25.–28. Januar</span></li>
                         <li><a title="Doodle form Chrampfärli Session Februar" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/ejZzK8Be">Chrampfärli Februar</a>, <span class="dates">15.–18. Februar</span></li>
                         <li><a title="Doodle form Chrampfärli Session März" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/aMwLANGd">Chrampfärli März</a>, <span class="dates">15.–18. März</span></li>
                         <li><a title="Doodle form Chrampfärli Session Mai" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/e91kNjBe">Chrampfärli Mai</a>, <span class="dates">17.–20. Mai(Auffahrt)</span></li>
@@ -218,7 +218,8 @@
 
 
                 </ul>
-                <p>Bisch öi där bii? Du trags du ii und spread <span role="img" aria-label="kiss">😘</span> some <span role="img" aria-label="love">❤️‍🔥🥰😍❤️</span> into space mit iisch. Wir freuwä iisch 🖤 — und fiir alli üssär schwiizer: join us on the above dates and participate in the vinyard 🤗</p>
+                <p>Bisch öi där bii? Du trags du ii und spread <span role="img" aria-label="kiss">😘</span> some <span role="img" aria-label="love">❤️‍🔥🥰😍❤️</span> into space mit iisch. Wir freuwä iisch 🖤</p>
+                <p>Sign up for the above dates to help out in the vineyard and spread some intergalactic love. Looking forward to seeing you 🤗</p>
                 <p>
                         <a title="Brentjong dot Space" href="/">Brentjong.space</a> — a permaculture space curated by
                 </p>
