@@ -64,7 +64,7 @@
         }
         h1 {
                 font-size: 4em;
-                padding-block-end: 1em;
+                padding-block-end: 0.5em;
                 font-weight: normal;
                 line-height: 120%;
                 hyphens: auto;
@@ -94,6 +94,10 @@
         }
         .date-list li::marker {
                 content: '🚀 ';
+        }
+        .date-list li:hover::marker, .date-list li:focus::marker {
+                animation: rocket-launch 0.25s infinite 0.8s;
+                position: absolute;
         }
         .dates--not-fix {
                 text-decoration: wavy underline;
@@ -139,9 +143,10 @@
                 animation: spinning-edgy 1.9s infinite;
                 /* animation: spinning-harmonious 1.3s infinite; */
         }
-
-
-
+        .link:hover .link__rocket-launch {
+                display: inline-block;
+                animation: rocket-launch 0.25s infinite 0.8s;
+        }
         .credits {
                 padding-block-start: var(--brentjong-space--layout--padding);
         }
@@ -196,6 +201,13 @@
 
                 100% {}
         }
+        @keyframes rocket-launch {
+                0% { transform: translate(0, 0) rotate(0deg); }
+                25% { transform: translate(5px, 5px) rotate(5deg); }
+                50% { transform: translate(10px, 10px) rotate(0eg); }
+                75% { transform: translate(5px, 5px) rotate(-5deg); }
+                100% { transform: translate(0, 0) rotate(0deg); }
+        }
         .hidden {
                 display: none;
         }
@@ -216,7 +228,7 @@
                         .　　　•　° ★　•  ☄</span>
                 </p>
                 <p>
-                        You give us your email — we give you information about our wine project 😘 <a href="https://forms.gle/xrE5mkSN6cuhj8DcA" title="Google Docs Newsletter subscription form" rel="nofollow">Subscribe to our newsletter</a> 🚀
+                        You give us your email — we give you information about our wine project 😘 <a class="link" href="https://forms.gle/xrE5mkSN6cuhj8DcA" title="Google Docs Newsletter subscription form" rel="nofollow">Subscribe to our newsletter <span class="link__rocket-launch" role="img" aria-label="Rocket">🚀</span></a>
                 </p>
                 <footer>
                         <p class="credits"><span>Made with ❤️‍🔥 &nbsp;by&nbsp;</span><a href="https://yokai.ch">Yokai</a></p>
