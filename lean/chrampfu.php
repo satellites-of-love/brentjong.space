@@ -47,7 +47,6 @@
                 justify-content: center;
 
                 min-height: calc(100vh - var(--brentjong-space--layout--padding));
-                /* min-width: calc(100vw - var(--brentjong-space--layout--padding)); */
                 border: calc(var(--brentjong-space--layout--padding)/2) var(--brentjong-space--color--base) solid;
                 overflow-x: hidden;
                 overflow-y: scroll;
@@ -122,15 +121,13 @@
                 background-repeat: no-repeat;
                 background-position: 100% 100%;
                 background-size: 100% 0.1em;
-                transition: background 0.8s cubic-bezier(.77,0,.175,1);
-                transition: color 0.8s cubic-bezier(.77,0,.175,1);
+                transition: background 0.8s cubic-bezier(.77,0,.175,1), color 0.8s cubic-bezier(.77,0,.175,1);
         }
 
         a:focus, a:hover {
                 color: var(--brentjong-space--color--action);
                 background-size: 0 0.1em;
-                transition: background 1s cubic-bezier(.645,.045,.355,1);
-                transition: color 1s cubic-bezier(.645,.045,.355,1);
+                transition: background 1s cubic-bezier(.645,.045,.355,1), color 1s cubic-bezier(.645,.045,.355,1);
         }
 
         .link .link__satellite {
@@ -221,7 +218,7 @@
 
                 </ul>
                 <p>Bisch öi där bii? Du trags du ii und spread <span role="img" aria-label="kiss">😘</span> some <span role="img" aria-label="love">❤️‍🔥😍❤️</span> into space mit iisch. Wir freuwä iisch 🖤</p>
-                <p>Sign up for the above dates to help out in the vineyard and spread some <a href="https://www.youtube.com/watch?v=qORYO0atB6g" rel="nofollow" title="Beastie Boys - Intergalactic">intergalactic</a> 👾 love <span role="img" aria-label="love">😍🥰</span>. Looking forward to seeing you 🤗</p>
+                <p>Sign up for the above dates to help out in the vineyard and spread some <a href="https://www.youtube.com/watch?v=qORYO0atB6g" rel="nofollow" title="Beastie Boys - Intergalactic">intergalactic</a> 👾 love <span role="img" aria-label="love">😍🥰</span> with us. Looking forward to seeing you 🤗</p>
                 <p>
                         <a title="Brentjong dot Space" href="/">Brentjong.space</a> — a permaculture space curated by
                 </p>

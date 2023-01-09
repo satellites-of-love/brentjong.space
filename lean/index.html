@@ -47,7 +47,6 @@
                 justify-content: center;
 
                 min-height: calc(100vh - var(--brentjong-space--layout--padding));
-                /* min-width: calc(100vw - var(--brentjong-space--layout--padding)); */
                 border: calc(var(--brentjong-space--layout--padding)/2) var(--brentjong-space--color--base) solid;
                 overflow-x: hidden;
                 overflow-y: scroll;
@@ -122,13 +121,13 @@
                 background-repeat: no-repeat;
                 background-position: 100% 100%;
                 background-size: 100% 0.1em;
-                transition: background 0.8s cubic-bezier(.77,0,.175,1);
+                transition: background 0.8s cubic-bezier(.77,0,.175,1), color 0.8s cubic-bezier(.77,0,.175,1);
         }
 
         a:focus, a:hover {
                 color: var(--brentjong-space--color--action);
                 background-size: 0 0.1em;
-                transition: background 1s cubic-bezier(.645,.045,.355,1);
+                transition: background 1s cubic-bezier(.645,.045,.355,1), color 1s cubic-bezier(.645,.045,.355,1);
         }
 
         .link .link__satellite {
