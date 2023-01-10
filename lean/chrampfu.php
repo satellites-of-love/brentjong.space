@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de-CH">
 <head>
         <link href="https://fonts.googleapis.com/css?family=Droid+Sans&display=swap"/>
-        <title>brentjong.space — a permaculture garden/space curated by Satellites of Love Association</title>
-        <meta name="description" content="brentjong.space is a permaculture garden/space curated by Satellites of Love Association. We make organic alpine wines out of Pinot Noir grapes - Pétillant Naturel (Pet Nat), Blanc de Noir, Rosé, Piquette. No added sulfur dioxide, no additives at all and therefore vegan.">
+        <title>Chrampfu — a permaculture garden/space curated by Satellites of Love Association</title>
+        <meta name="description" content="Chrampfu — Join us to help out in the vineyard and spread some intergalactic love with us :) Looking forward to seeing you. brentjong.space is a permaculture garden/space curated by Satellites of Love Association.">
         <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
         <meta name="viewport" content="width=device-width">
         <meta name="geo.region" content="CH-BE" />
@@ -14,12 +14,12 @@
         <meta name="geo.placename" content="Brentjong, Leuk/Loèche, Wallis/Valais" />
         <meta name="geo.position" content="46.317660;7.652257" />
         <meta name="ICBM" content="46.317660, 7.652257" />
-        <meta property="og:site_name" content="brentjong.space — a permaculture garden/space curated by Satellites of Love Association">
-        <meta property="og:title" content="brentjong.space — a permaculture garden/space curated by Satellites of Love Association" />
-        <meta property="og:description" content="We make organic alpine wines out of Pinot Noir grapes - Pétillant Naturel (Pet Nat), Blanc de Noir, Rosé, Piquette. No added sulfur dioxide, no additives at all and therefore vegan." />
+        <meta property="og:site_name" content="brentjong.space">
+        <meta property="og:title" content="Chrampfu — Join us to help out in the vineyard and spread some intergalactic love with us :) Looking forward to seeing you." />
+        <meta property="og:description" content="brentjong.space is a permaculture garden/space curated by Satellites of Love Association and is looking for friendly, open-minded people who want to participate in the vineyard. Join us :)" />
         <meta property="og:image" itemprop="image" content="https://brentjong.space/apple-touch-icon.png">
         <meta property="og:type" content="website" />
-        <meta name="theme-color" content="#17ff2142"/>
+        <meta name="theme-color" content="#ffae98"/>
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -30,9 +30,9 @@
                 padding: 0;
         }
         body {
-                --brentjong-space--color--base: #17ff236d;
+                --brentjong-space--color--base: #ffae98;
                 --brentjong-space--color--highlighted: #ec0dad42;
-                --brentjong-space--color--action: #ff002b;
+                --brentjong-space--color--action: #ff4538;
                 --brentjong-space--layout--padding: 2em;
                 --brentjong-space--layout--breakpoint--s: 700px;
 
@@ -143,6 +143,13 @@
                 animation: spinning-edgy 1.9s infinite;
                 /* animation: spinning-harmonious 1.3s infinite; */
         }
+        .link .link__base-station {
+                position: relative;
+                display: inline-block;
+        }
+        .link:hover .link__base-station {
+                animation: flip-horizontal 1.9s infinite;
+        }
         .link:hover .link__rocket-launch {
                 display: inline-block;
                 animation: rocket-launch 0.25s infinite 0.8s;
@@ -201,6 +208,16 @@
 
                 100% {}
         }
+        @keyframes flip-horizontal {
+                0% { transform: translate(0, 0) rotate(0deg); }
+                25% { transform: translate(-5px, 0) rotate(5deg); }
+                49% { transform: scaleX(1) }
+                50% { transform: translate(-10px, -3px) rotate(0eg); }
+                51% { transform: scaleX(-1) }
+                74% { transform: scaleX(-1) }
+                75% { transform: translate(-5px, 0) rotate(-5deg); }
+                100% { transform: translate(0, 0) rotate(0deg); }
+        }
         @keyframes rocket-launch {
                 0% { transform: translate(0, 0) rotate(0deg); }
                 25% { transform: translate(-5px, 0) rotate(5deg); }
@@ -215,8 +232,8 @@
 </head>
 <body>
         <main class="content">
-                <h1>Salut Chram&shy;pfär*in</h1>
-                <p>Diz Jahr — yup, 2023 — heiwär folgundi Chrampfär*inne Sessions iigeplant:</p>
+                <h1>Salut Chram&shy;pfär*(l)i</h1>
+                <p>Diz Jahr — yup, 2023 — heiwär folgundi Chrampfär*inne Sessions igiplaant:</p>
                 <ul class="date-list">
                         <li><a title="Doodle Formular Chrampfärli Session Januar" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/b81j253d">Chrampfärli Januar</a>, <span class="dates">25.–28. Januar</span></li>
                         <li><a title="Doodle Formular Chrampfärli Session Februar" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/ejZzK8Be">Chrampfärli Februar</a>, <span class="dates">15.–18. Februar</span></li>
@@ -229,22 +246,22 @@
 
 
                 </ul>
-                <p>Bisch öi där bii? Du trags du ii und spread <span role="img" aria-label="kiss">😘</span> some <span role="img" aria-label="love">❤️‍🔥😍❤️</span> into space mit iisch. Wir freuwä iisch 🖤</p>
-                <p>Sign up for the above dates to help out in the vineyard and spread some <a href="https://www.youtube.com/watch?v=qORYO0atB6g" rel="nofollow" title="Beastie Boys - Intergalactic">intergalactic</a> 👾 love <span role="img" aria-label="love">😍🥰</span> with us. Looking forward to seeing you 🤗</p>
+                <p>Bisch öi där bii? Wir freuwä iisch unäntli! 🖤</p>
+                <p lang="en">Sign up for the above dates to help out in the vineyard and spread some <a href="https://www.youtube.com/watch?v=qORYO0atB6g" rel="nofollow" title="Beastie Boys - Intergalactic">intergalactic</a> 👾 love <span role="img" aria-label="love">😍🥰</span> with us. Looking forward to seeing you 🤗</p>
                 <p>
                         <a title="Brentjong dot Space" href="/">Brentjong.space</a> — a permaculture space curated by
                 </p>
-                <p class="universe">
-                        <span role="presentation">🛸　　　 　🌎</span><a class="link" title="Satellites of Love. Visit us on Instagram." href="https://www.instagram.com/satellites.of.love" rel="nofollow"><span role="img" aria-label="Satellites">📡</span> of <span role="img" aria-label="Love">❤️</span><em class="link__satellite">🛰<em class="link__satellite">❤️<em class="link__satellite">🛰<em class="link__satellite">❤️</em></em></em></a><span role="presentation">　°　　🌓　•　　.°•　　　🚀 ✯
+                <p lang="en" class="universe">
+                        <span role="presentation">🛸　　　 　🌎</span><a class="link" title="Satellites of Love. Visit us on Instagram." href="https://www.instagram.com/satellites.of.love" rel="nofollow"><span class="link__base-station" role="img" aria-label="Satellite base station">📡</span> of <span role="img" aria-label="Love">❤️</span><em class="link__satellite">🛰<em class="link__satellite">❤️<em class="link__satellite">🛰<em class="link__satellite">❤️</em></em></em></a><span role="presentation">　°　　🌓　•　　.°•　　　🚀 ✯
                         <br>
                         　　　★　*　　　　　°　　　　🛰 　°·　　                           🪐
                         <br>
                         .　　　•　° ★　•  ☄</span>
                 </p>
-                <p>
+                <p lang="en">
                         You give us your email — we give you information about our wine project 😘 <a class="link" href="https://forms.gle/xrE5mkSN6cuhj8DcA" title="Google Docs Newsletter subscription form" rel="nofollow">Subscribe to our newsletter <span class="link__rocket-launch" role="img" aria-label="Rocket">🚀</span></a>
                 </p>
-                <footer>
+                <footer lang="en">
                         <p class="credits"><span>Made with ❤️‍🔥 &nbsp;by&nbsp;</span><a href="https://yokai.ch">Yokai</a></p>
                 </footer>
         </main>

@@ -19,7 +19,7 @@
         <meta property="og:description" content="We make organic alpine wines out of Pinot Noir grapes - Pétillant Naturel (Pet Nat), Blanc de Noir, Rosé, Piquette. No added sulfur dioxide, no additives at all and therefore vegan." />
         <meta property="og:image" itemprop="image" content="https://brentjong.space/apple-touch-icon.png">
         <meta property="og:type" content="website" />
-        <meta name="theme-color" content="#17ff2142"/>
+        <meta name="theme-color" content="#ffae98"/>
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -30,9 +30,9 @@
                 padding: 0;
         }
         body {
-                --brentjong-space--color--base: #17ff236d;
+                --brentjong-space--color--base: #ffae98;
                 --brentjong-space--color--highlighted: #ec0dad42;
-                --brentjong-space--color--action: #ff002b;
+                --brentjong-space--color--action: #ff4538;
                 --brentjong-space--layout--padding: 2em;
                 --brentjong-space--layout--breakpoint--s: 700px;
 
@@ -143,6 +143,13 @@
                 animation: spinning-edgy 1.9s infinite;
                 /* animation: spinning-harmonious 1.3s infinite; */
         }
+        .link .link__base-station {
+                position: relative;
+                display: inline-block;
+        }
+        .link:hover .link__base-station {
+                animation: flip-horizontal 1.9s infinite;
+        }
         .link:hover .link__rocket-launch {
                 display: inline-block;
                 animation: rocket-launch 0.25s infinite 0.8s;
@@ -201,11 +208,21 @@
 
                 100% {}
         }
+        @keyframes flip-horizontal {
+                0% { transform: translate(0, 0) rotate(0deg); }
+                25% { transform: translate(-5px, 0) rotate(5deg); }
+                49% { transform: scaleX(1) }
+                50% { transform: translate(-10px, -3px) rotate(0eg); }
+                51% { transform: scaleX(-1) }
+                74% { transform: scaleX(-1) }
+                75% { transform: translate(-5px, 0) rotate(-5deg); }
+                100% { transform: translate(0, 0) rotate(0deg); }
+        }
         @keyframes rocket-launch {
                 0% { transform: translate(0, 0) rotate(0deg); }
-                25% { transform: translate(5px, 5px) rotate(5deg); }
-                50% { transform: translate(10px, 10px) rotate(0eg); }
-                75% { transform: translate(5px, 5px) rotate(-5deg); }
+                25% { transform: translate(-5px, 0) rotate(5deg); }
+                50% { transform: translate(-10px, -3px) rotate(0eg); }
+                75% { transform: translate(-5px, 0) rotate(-5deg); }
                 100% { transform: translate(0, 0) rotate(0deg); }
         }
         .hidden {
@@ -221,7 +238,7 @@
                         — a permaculture space curated by
                 </p>
                 <p class="universe">
-                        <span role="presentation">🛸　　　 　🌎</span><a class="link" title="Satellites of Love. Visit us on Instagram." href="https://www.instagram.com/satellites.of.love" rel="nofollow"><span role="img" aria-label="Satellites">📡</span> of <span role="img" aria-label="Love">❤️</span><em class="link__satellite">🛰<em class="link__satellite">❤️<em class="link__satellite">🛰<em class="link__satellite">❤️</em></em></em></a><span role="presentation">　°　　🌓　•　　.°•　　　🚀 ✯
+                        <span role="presentation">🛸　　　 　🌎</span><a class="link" title="Satellites of Love. Visit us on Instagram." href="https://www.instagram.com/satellites.of.love" rel="nofollow"><span class="link__base-station" role="img" aria-label="Satellite base station">📡</span> of <span role="img" aria-label="Love">❤️</span><em class="link__satellite">🛰<em class="link__satellite">❤️<em class="link__satellite">🛰<em class="link__satellite">❤️</em></em></em></a><span role="presentation">　°　　🌓　•　　.°•　　　🚀 ✯
                         <br>
                         　　　★　*　　　　　°　　　　🛰 　°·　　                           🪐
                         <br>
