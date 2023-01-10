@@ -19,7 +19,7 @@
         <meta property="og:description" content="brentjong.space is a permaculture garden/space curated by Satellites of Love Association and is looking for friendly, open-minded people who want to participate in the vineyard. Join us :)" />
         <meta property="og:image" itemprop="image" content="https://brentjong.space/apple-touch-icon.png">
         <meta property="og:type" content="website" />
-        <meta name="theme-color" content="#ffae98"/>
+        <meta name="theme-color" content="#17ff2142"/>
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -30,7 +30,7 @@
                 padding: 0;
         }
         body {
-                --brentjong-space--color--base: #ffae98;
+                --brentjong-space--color--base: #17ff2142;
                 --brentjong-space--color--highlighted: #ec0dad42;
                 --brentjong-space--color--action: #ff4538;
                 --brentjong-space--layout--padding: 2em;
