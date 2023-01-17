@@ -246,7 +246,7 @@
 
 
                 </ul>
-                <p>Bisch öi där bii? Wir freuwä iisch unäntli! 🖤</p>
+                <p>Bisch öi där bii? Denn ohne dich geht gar nichts. Hilf uns mit der Planung und trag dich für die Chrampfärli Sessions im Doodle Form ein — wanns dir geht. So können wir uns organisieren und du bleibst auf dem Laufenden ;-) Merci! Wir freuwä iisch unäntli! 🖤</p>
                 <p lang="en">Sign up for the above dates to help out in the vineyard and spread some <a href="https://www.youtube.com/watch?v=qORYO0atB6g" rel="nofollow" title="Beastie Boys - Intergalactic">intergalactic</a> 👾 love <span role="img" aria-label="love">😍🥰</span> with us. Looking forward to seeing you 🤗</p>
                 <p>
                         <a title="Brentjong dot Space" href="/">Brentjong.space</a> — a permaculture space curated by
