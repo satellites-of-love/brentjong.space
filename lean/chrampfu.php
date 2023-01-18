@@ -235,7 +235,7 @@
                 <h1>Salut Chram&shy;pfär*(l)i</h1>
                 <p>Diz Jahr — yup, 2023 — heiwär folgundi Chrampfär*inne Sessions igiplaant:</p>
                 <ul class="date-list" id="chrampfu-sessions">
-                        <li><a title="Doodle Formular Chrampfärli Session Januar" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/b81j253d">Chrampfärli Januar</a>, <span class="dates">25.–28. Januar</span></li>
+                        <li><a title="Doodle Formular Chrampfärli Session Januar" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/b81j253d">Chrampfärli Januar</a>, <span class="dates">☃️ 25.–28. Januar</span></li>
                         <li><a title="Doodle Formular Chrampfärli Session Februar" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/ejZzK8Be">Chrampfärli Februar</a>, <span class="dates">15.–18. Februar</span></li>
                         <li><a title="Doodle Formular Chrampfärli Session März" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/aMwLANGd">Chrampfärli März</a>, <span class="dates">15.–18. März</span></li>
                         <li><a title="Doodle Formular Chrampfärli Session Mai" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/e91kNjBe">Chrampfärli Mai</a>, <span class="dates">17.–20. Mai(Auffahrt)</span></li>
@@ -246,7 +246,7 @@
 
 
                 </ul>
-                <p>Bisch öi där bii? Denn ohne dich geht gar nichts. Hilf uns mit der Planung und trag dich für die <a title="Chrampfär*inne Sessions 2023" href="#chrampfu-sessions">Chrampfärli Sessions</a> im Doodle Form ein — wanns dir geht. So können wir uns organisieren und du bleibst auf dem Laufenden ;-) Merci!</p>
+                <p>Bisch öi där bii? Denn ohne dich geht gar nichts. Hilf uns mit der Planung und trag dich für die <a title="Chrampfär*inne Sessions 2023" href="#chrampfu-sessions">Chrampfärli Sessions</a> ⇡ im Doodle Form ein wanns dir geht 🖤 So können wir uns organisieren und du bleibst auf dem Laufenden ;-) Merci!</p>
                 <p lang="en">Sign up for the above dates to help out in the vineyard and spread some <a href="https://www.youtube.com/watch?v=qORYO0atB6g" rel="nofollow" title="Beastie Boys - Intergalactic">intergalactic</a> 👾 love <span role="img" aria-label="love">😍🥰</span> with us. Looking forward to seeing you 🤗</p>
                 <p>
                         <a title="Brentjong dot Space" href="/">Brentjong.space</a> — a permaculture space curated by
