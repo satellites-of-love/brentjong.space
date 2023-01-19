@@ -19,6 +19,7 @@
         <meta property="og:description" content="brentjong.space is a permaculture garden/space curated by Satellites of Love Association and is looking for friendly, open-minded people who want to participate in the vineyard. Join us :)" />
         <meta property="og:image" itemprop="image" content="https://brentjong.space/chrampfaerli/apple-touch-icon.png">
         <meta property="og:type" content="website" />
+        <meta property="og:locale" content="de_CH" />
         <meta name="theme-color" content="#17ff2142"/>
         <link rel="icon" type="image/x-icon" href="/chrampfaerli/favicon.ico">
         <link rel="apple-touch-icon" sizes="180x180" href="/chrampfaerli/apple-touch-icon.png">
