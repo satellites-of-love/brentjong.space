@@ -20,9 +20,10 @@
         <meta property="og:image" itemprop="image" content="https://brentjong.space/apple-touch-icon.png">
         <meta property="og:type" content="website" />
         <meta name="theme-color" content="#17ff2142"/>
+        <link rel="icon" type="image/x-icon" href="/chrampfaerli/favicon.ico">
         <link rel="apple-touch-icon" sizes="180x180" href="/chrampfaerli/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/chrampfaerli/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/chrampfaerli/favicon-16x16.png">
         <link rel="manifest" href="/chrampfaerli/site.webmanifest">
         <style type="text/css">
         * {
