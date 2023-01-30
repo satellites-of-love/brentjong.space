@@ -99,6 +99,9 @@
         .date-list li::marker {
                 content: '🚀 ';
         }
+        .date-list--past li::marker {
+                content: '❤️ ';
+        }
         .date-list li:hover::marker, .date-list li:focus::marker {
                 animation: rocket-launch 0.25s infinite 0.8s;
                 position: absolute;
@@ -250,7 +253,7 @@
                 <p>Bisch öi där bii? Denn ohne dich geht gar nichts. Hilf uns mit der Planung und trag dich für die <a title="Chrampfär*inne Sessions 2023" href="#chrampfu-sessions">Chrampfärli Sessions</a> ⇡ im Doodle Form ein — wanns dir passt 🖤 So können wir uns organisieren und du bleibst auf dem Laufenden ;-) Merci!</p>
                 <p lang="en">Sign up for the above dates to help out in the vineyard and spread some <a href="https://www.youtube.com/watch?v=qORYO0atB6g" rel="nofollow" title="Beastie Boys - Intergalactic">intergalactic</a> 👾 love <span role="img" aria-label="love">😍🥰</span> with us. Looking forward to seeing you 🤗</p>
                 <h2>Värgangini Chrampfär*inne Session(s):</h2>
-                <ul class="date-list">
+                <ul class="date-list date-list--past">
                         <li>Chrampfärli Januar, <span class="dates">☃️ 25.–28. Januar 2023</span></li>
                 </ul>
                 <p>
