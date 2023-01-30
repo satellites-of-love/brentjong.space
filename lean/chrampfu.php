@@ -64,20 +64,22 @@
         img {
                 border-style: none;
         }
-        h1 {
-                font-size: 4em;
+        p, ul, h2, h3 {
+                font-size: 2em;
+                line-height: 130%;
+                max-width: 50ch;
+                word-wrap: break-word;
+                padding-block-end: calc(0.5 * var(--brentjong-space--layout--padding));
+        }
+        h1, h2, h3, h4 {
                 padding-block-end: 0.5em;
                 font-weight: normal;
                 line-height: 120%;
                 hyphens: auto;
                 -webkit-hyphens: auto;
         }
-        p, ul {
-                font-size: 2em;
-                line-height: 130%;
-                max-width: 50ch;
-                word-wrap: break-word;
-                padding-block-end: calc(0.5 * var(--brentjong-space--layout--padding));
+        h1 {
+                font-size: 4em;
         }
         .content:last-child {
                 padding-block-end: 0;
@@ -237,19 +239,20 @@
                 <h1>Salut Chram&shy;pfär*(l)i</h1>
                 <p>Diz Jahr — yup, 2023 — heiwär folgundi Chrampfär*inne Sessions igiplaant:</p>
                 <ul class="date-list" id="chrampfu-sessions">
-                        <li><a title="Doodle Formular Chrampfärli Session Januar" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/b81j253d">Chrampfärli Januar</a>, <span class="dates">☃️ 25.–28. Januar</span></li>
+                        <li class="hidden"><a title="Doodle Formular Chrampfärli Session Januar" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/b81j253d">Chrampfärli Januar</a>, <span class="dates">☃️ 25.–28. Januar</span></li>
                         <li><a title="Doodle Formular Chrampfärli Session Februar" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/ejZzK8Be">Chrampfärli Februar</a>, <span class="dates">15.–18. Februar</span></li>
                         <li><a title="Doodle Formular Chrampfärli Session März" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/aMwLANGd">Chrampfärli März</a>, <span class="dates">15.–18. März</span></li>
                         <li><a title="Doodle Formular Chrampfärli Session Mai" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/e91kNjBe">Chrampfärli Mai</a>, <span class="dates">17.–20. Mai(Auffahrt)</span></li>
                         <li><a title="Doodle Formular Chrampfärli Session Juni" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/e0YW7n7a">Chrampfärli Juni</a>, <span class="dates">7.–10. Juni</span></li>
                         <li><a title="Doodle Formular Chrampfärli Session Juli" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/dL7Kzrpb">Chrampfärli Juli</a>, <span class="dates">6.–10. Juli</span></li>
                         <li>Wimdu 2023, <span class="dates dates--not-fix">August~September</span></li>
-
-
-
                 </ul>
                 <p>Bisch öi där bii? Denn ohne dich geht gar nichts. Hilf uns mit der Planung und trag dich für die <a title="Chrampfär*inne Sessions 2023" href="#chrampfu-sessions">Chrampfärli Sessions</a> ⇡ im Doodle Form ein — wanns dir passt 🖤 So können wir uns organisieren und du bleibst auf dem Laufenden ;-) Merci!</p>
                 <p lang="en">Sign up for the above dates to help out in the vineyard and spread some <a href="https://www.youtube.com/watch?v=qORYO0atB6g" rel="nofollow" title="Beastie Boys - Intergalactic">intergalactic</a> 👾 love <span role="img" aria-label="love">😍🥰</span> with us. Looking forward to seeing you 🤗</p>
+                <h2>Värgangini Chrampfär*inne Session(s):</h2>
+                <ul class="date-list">
+                        <li>Chrampfärli Januar, <span class="dates">☃️ 25.–28. Januar 2023</span></li>
+                </ul>
                 <p>
                         <a title="Brentjong dot Space" href="/">Brentjong.space</a> — a permaculture space curated by
                 </p>
@@ -260,6 +263,7 @@
                         <br>
                         .　　　•　° ★　•  ☄</span>
                 </p>
+
                 <p lang="en">
                         You give us your email — we give you information about our wine project 😘 <a class="link" href="https://forms.gle/xrE5mkSN6cuhj8DcA" title="Google Docs Newsletter subscription form" rel="nofollow">Subscribe to our newsletter <span class="link__rocket-launch" role="img" aria-label="Rocket">🚀</span></a>
                 </p>
