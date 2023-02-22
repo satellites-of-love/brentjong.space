@@ -254,8 +254,8 @@
                 <p lang="en">Sign up for the above dates to help out in the vineyard and spread some <a href="https://www.youtube.com/watch?v=qORYO0atB6g" rel="nofollow" title="Beastie Boys - Intergalactic">intergalactic</a> 👾 love <span role="img" aria-label="love">😍🥰</span> with us. Looking forward to seeing you 🤗</p>
                 <h2>Värgangini Chrampfär*inne Session(s):</h2>
                 <ul class="date-list date-list--past">
-                        <li>Chrampfärli Januar, <span class="dates">☃️ 25.–28. Januar 2023</span> — Winterschnitt Brentjong</li>
-                        <li>Chrampfärli Februar, <span class="dates">✂️ 16.–18. Februar 2023</span> — Winterschnitt Brentjong 2.0, Reihen aufloesen</li>
+                        <li>Chrampfärli Januar, <span class="dates">☃️✂️ 25.–28. Januar 2023</span> — Winterschnitt Brentjong</li>
+                        <li>Chrampfärli Februar, <span class="dates">🌤️✂️ 16.–18. Februar 2023</span> — Winterschnitt Brentjong 2.0, Reihen auflösen</li>
                 </ul>
                 <p>
                         <a title="Brentjong dot Space" href="/">Brentjong.space</a> — a permaculture space curated by
