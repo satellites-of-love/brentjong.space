@@ -308,7 +308,7 @@
                 <h2>Värgangini Chrampfär*inne Session(s):</h2>
                 <ul class="date-list date-list--past">
                         <li>
-                                <span class="session-name">Chrampfärli Januar</span>
+                                <span class="session-name"><a href="https://www.instagram.com/p/CooptGaq9eQ/" title="Januar Chrampfärli Session auf Instagram" rel="noreferrer" target="_blank">Chrampfärli Januar</a></span>
                                 <span class="tasks-emoji">☃️✂️</span>
                                 <span class="dates">
                                         <time datetime="2023-01-25" itemprop="startDate">25.</time>–
@@ -330,7 +330,7 @@
                                 </span>
                         </li>
                         <li>
-                                <span class="session-name">Chrampfärli März</span>
+                                <span class="session-name"><a href="https://www.instagram.com/p/CqCnQvQq8Zk/" title="März Chrampfärli Session auf Instagram" rel="noreferrer" target="_blank">Chrampfärli März</a></span>
                                 <span class="tasks-emoji">🌤️☀️🌱🌳🦎🦋🐇🦅🌿</span>
                                 <span class="dates">
                                         <time datetime="2023-03-15" itemprop="startDate">15.</time>–
