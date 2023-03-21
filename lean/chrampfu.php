@@ -244,7 +244,7 @@
                 <ul class="date-list" id="chrampfu-sessions">
                         <li class="hidden"><a title="Doodle Formular Chrampfärli Session Januar" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/b81j253d">Chrampfärli Januar</a>, <span class="dates">☃️ 25.–28. Januar</span></li>
                         <li class="hidden"><a title="Doodle Formular Chrampfärli Session Februar" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/ejZzK8Be">Chrampfärli Februar</a>, <span class="dates">16.–18. Februar</span></li>
-                        <li><a title="Doodle Formular Chrampfärli Session März" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/aMwLANGd">Chrampfärli März</a>, <span class="dates">🌱 15.–18. März</span></li>
+                        <li class="hidden"><a title="Doodle Formular Chrampfärli Session März" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/aMwLANGd">Chrampfärli März</a>, <span class="dates">🌱 15.–18. März</span></li>
                         <li><a title="Doodle Formular Chrampfärli Session Mai" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/e91kNjBe">Chrampfärli Mai</a>, <span class="dates">🥳 17.–20. Mai(Auffahrt)</span></li>
                         <li><a title="Doodle Formular Chrampfärli Session Juni" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/e0YW7n7a">Chrampfärli Juni</a>, <span class="dates">7.–10. Juni</span></li>
                         <li><a title="Doodle Formular Chrampfärli Session Juli" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/dL7Kzrpb">Chrampfärli Juli</a>, <span class="dates">6.–10. Juli</span></li>
@@ -255,7 +255,8 @@
                 <h2>Värgangini Chrampfär*inne Session(s):</h2>
                 <ul class="date-list date-list--past">
                         <li>Chrampfärli Januar, <span class="dates">☃️✂️ 25.–28. Januar 2023</span> — Winterschnitt Brentjong</li>
-                        <li>Chrampfärli Februar, <span class="dates">🌤️✂️ 16.–18. Februar 2023</span> — Winterschnitt/Konzeption Brentjong 2.0, Reihen auflösen</li>
+                        <li>Chrampfärli Februar, <span class="dates">🌤️✂️ 16.–18. Februar 2023</span> — Konzeption Brentjong 2.0, Winterschnitt Brentjong 2.0, Reihen auflösen</li>
+                        <li>Chrampfärli März, <span class="dates">🌱 15.–18. März</span> — Reihen auflösen, Reben rausschrecken, Winterschnitt Brentjong 2.0</li>
                 </ul>
                 <p>
                         <a title="Brentjong dot Space" href="/">Brentjong.space</a> — a permaculture space curated by
