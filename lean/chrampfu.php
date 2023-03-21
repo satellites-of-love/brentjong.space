@@ -256,7 +256,7 @@
                 <ul class="date-list date-list--past">
                         <li>Chrampfärli Januar, <span class="dates">☃️✂️ 25.–28. Januar 2023</span> — Winterschnitt Brentjong</li>
                         <li>Chrampfärli Februar, <span class="dates">🌤️✂️ 16.–18. Februar 2023</span> — Konzeption Brentjong 2.0, Winterschnitt Brentjong 2.0, Reihen auflösen</li>
-                        <li>Chrampfärli März, <span class="dates">🌱 15.–18. März</span> — Reihen auflösen, Reben rausschrecken, Winterschnitt Brentjong 2.0</li>
+                        <li>Chrampfärli März, <span class="dates">🌱🌳🦎🐅🎋🦜🌿🌤️☀️✂️ 15.–18. März</span> — Reihen auflösen, Reben rausschrecken, Winterschnitt Brentjong 2.0</li>
                 </ul>
                 <p>
                         <a title="Brentjong dot Space" href="/">Brentjong.space</a> — a permaculture space curated by
