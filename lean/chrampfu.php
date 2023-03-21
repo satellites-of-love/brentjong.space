@@ -326,7 +326,7 @@
                                         <time datetime="2023-02-18" itemprop="endDate">18. Februar 2023</time>
                                 </span>
                                 <span class="space">Brentjong 2.0
-                                        <span class="tasks">Konzeption, Winterschnitt, Reihen auflösen</span>
+                                        <span class="tasks">Konzeption & Planung, Winterschnitt, Reihen auflösen</span>
                                 </span>
                         </li>
                         <li>
