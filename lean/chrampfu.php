@@ -59,7 +59,12 @@
                 }
         }
         .content {
-                padding: 4em 2em;
+                padding: 11vw 2em 4em 2em;
+        }
+        @media (min-width: 1441px) {
+                .content {
+                        padding-block-start: 13vw;
+                }
         }
         img {
                 border-style: none;
