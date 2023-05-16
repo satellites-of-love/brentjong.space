@@ -3,6 +3,7 @@
 <head>
         <link href="https://fonts.googleapis.com/css?family=Droid+Sans&display=swap"/>
         <title>Chrampfu — help out in our permaculture garden/space, curated by Satellites of Love Association</title>
+        <meta name="robots" content="noindex">
         <meta name="description" content="Chrampfu — Join us to help out in the vineyard and spread some intergalactic love with us :) Looking forward to seeing you. brentjong.space is a permaculture garden/space curated by Satellites of Love Association.">
         <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
         <meta name="viewport" content="width=device-width">
