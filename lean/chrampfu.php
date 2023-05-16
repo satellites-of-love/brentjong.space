@@ -288,6 +288,7 @@
                                         <time datetime="2023-05-17" itemprop="startDate">17.</time>–
                                         <time datetime="2023-05-20" itemprop="endDate">20. Mai(Auffahrt) 🥳</time>
                                 </span>
+                                , <a title="Karte fuer Mai 2023" rel="noreferrer" target="_blank" href="https://www.google.com/maps/d/edit?mid=1cDlzLGN_PL7Eq374Fe5FR68dyzVY0yg">Karte für Session</a>
                         </li>
                         <li>
                                 <a title="Doodle Formular Chrampfärli Session Juni" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/e0YW7n7a">Chrampfärli Juni</a>, 
