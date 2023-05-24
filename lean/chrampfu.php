@@ -107,7 +107,7 @@
         }
         
         .date-list--past li + li {
-                padding-block-start: 0.5em;
+                padding-block-start: 0.75em;
         }
         .date-list--past li::marker {
                 content: '❤️ ';
@@ -283,13 +283,13 @@
                                         <time datetime="2023-03-18" itemprop="endDate">18. März 🌱</time>
                                 </span>
                         </li>
-                        <li>
+                        <li class="hidden">
                                 <a title="Doodle Formular Chrampfärli Session Mai" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/e91kNjBe">Chrampfärli Mai</a>, 
                                 <span class="dates">
                                         <time datetime="2023-05-17" itemprop="startDate">17.</time>–
-                                        <time datetime="2023-05-20" itemprop="endDate">20. Mai(Auffahrt) 🥳</time>
+                                        <time datetime="2023-05-20" itemprop="endDate">20. Mai(Auffahrt) 🪩🥳👾</time>, 
                                 </span>
-                                , <a title="Karte fuer Mai 2023" rel="noreferrer" target="_blank" href="https://www.google.com/maps/d/edit?mid=1cDlzLGN_PL7Eq374Fe5FR68dyzVY0yg">Karte für Session</a>
+                                <a title="Karte für Mai 2023" rel="noreferrer" target="_blank" href="https://www.google.com/maps/d/edit?mid=1cDlzLGN_PL7Eq374Fe5FR68dyzVY0yg">Karte für Session</a>
                         </li>
                         <li>
                                 <a title="Doodle Formular Chrampfärli Session Juni" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/e0YW7n7a">Chrampfärli Juni</a>, 
@@ -316,7 +316,7 @@
                 <ul class="date-list date-list--past">
                         <li>
                                 <span class="session-name"><a href="https://www.instagram.com/p/CooptGaq9eQ/" title="Januar Chrampfärli Session auf Instagram" rel="noreferrer" target="_blank">Chrampfärli Januar</a></span>
-                                <span class="tasks-emoji">☃️✂️</span>
+                                <span class="tasks-emoji">☃️🌱✂️</span>
                                 <span class="dates">
                                         <time datetime="2023-01-25" itemprop="startDate">25.</time>–
                                         <time datetime="2023-01-28" itemprop="endDate">28. Januar 2023</time>
@@ -327,7 +327,7 @@
                         </li>
                         <li>
                                 <span class="session-name">Chrampfärli Februar</span>
-                                <span class="tasks-emoji">🌤️✂️</span>
+                                <span class="tasks-emoji">🌤️🗺🌱✂️</span>
                                 <span class="dates">
                                         <time datetime="2023-02-16" itemprop="startDate">16.</time>–
                                         <time datetime="2023-02-18" itemprop="endDate">18. Februar 2023</time>
@@ -338,13 +338,25 @@
                         </li>
                         <li>
                                 <span class="session-name"><a href="https://www.instagram.com/p/CqCnQvQq8Zk/" title="März Chrampfärli Session auf Instagram" rel="noreferrer" target="_blank">Chrampfärli März</a></span>
-                                <span class="tasks-emoji">🌤️☀️🌱🌳🦎🦋🐇🦅🌿</span>
+                                <span class="tasks-emoji">🌤️☀️🌱✂️🌳🦎🦋🐇🦅🌿</span>
                                 <span class="dates">
                                         <time datetime="2023-03-15" itemprop="startDate">15.</time>–
                                         <time datetime="2023-03-18" itemprop="endDate">18. März 2023</time>
                                 </span>
                                 <span class="space">Brentjong 2.0
                                         <span class="tasks">Reihen auflösen, Reben rausschrecken, Winterschnitt</span>
+                                </span>
+                        </li>
+                        <li>
+                                <span class="session-name"><a href="https://www.instagram.com/p/Csn4TWEqHZ-/" title="Mai Chrampfärli Session auf Instagram" rel="noreferrer" target="_blank">Chrampfärli Mai</a></span>
+                                <span class="tasks-emoji">⛅🌤️🦜🐝🦎🌱🔪🛸👾🔊🪩🥳</span>
+                                <span class="dates">
+                                        <time datetime="2023-05-17" itemprop="startDate">17.</time>–
+                                        <time datetime="2023-05-20" itemprop="endDate">20. Mai(Auffahrt)</time>, <a title="Karte für Mai 2023" rel="noreferrer" target="_blank" href="https://www.google.com/maps/d/edit?mid=1cDlzLGN_PL7Eq374Fe5FR68dyzVY0yg">Karte für Mai Session</a>
+                                </span>
+                                
+                                <span class="space">Sender / Brentjong / Brentjong 2.0
+                                        <span class="tasks">Sender takeover, ausbrechen/foltern, Kräuter pflanzen</span>
                                 </span>
                         </li>
                 </ul>
