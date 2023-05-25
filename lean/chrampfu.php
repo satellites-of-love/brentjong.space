@@ -260,7 +260,7 @@
 </head>
 <body>
         <main class="content">
-                <h1>Salut Chram&shy;pfär*(l)i</h1>
+                <h1>Salut Chram&shy;pfär*(l)i 🖖</h1>
                 <p>Diz Jahr — yup, 2023 — heiwär folgundi Chrampfär*inne Sessions igiplaant:</p>
                 <ul class="date-list" id="chrampfu-sessions">
                         <li class="hidden">
