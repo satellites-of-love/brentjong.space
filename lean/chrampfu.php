@@ -297,54 +297,48 @@
 <body>
         <main class="content">
                 <h1>Salut Chram&shy;pfär*(l)i 🖖</h1>
-                <p>Diz Jahr — yup, 2023 — heiwär folgundi Chrampfär*inne Sessions igiplaant:</p>
+                <p>Diz Jahr — yup, 2023 — heiwär nu folgundi Chrampfär*inne Sessions igiplaant:</p>
                 <ul class="date-list" id="chrampfu-sessions">
                         <li class="hidden">
                                 <a title="Doodle Formular Chrampfärli Session Januar" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/b81j253d">Chrampfärli Januar</a>, 
                                 <span class="dates">
-                                        <time datetime="2023-01-25" itemprop="startDate">25.</time>–
-                                        <time datetime="2023-01-28" itemprop="endDate">28. Januar ☃️</time>
+                                        <time datetime="2023-01-25" itemprop="startDate">25.</time>–<time datetime="2023-01-28" itemprop="endDate">28. Januar ☃️</time>
                                 </span>
                         </li>
                         <li class="hidden">
                                 <a title="Doodle Formular Chrampfärli Session Februar" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/ejZzK8Be">Chrampfärli Februar</a>, 
                                 <span class="dates">
-                                        <time datetime="2023-02-16" itemprop="startDate">16.</time>–
-                                        <time datetime="2023-02-18" itemprop="endDate">18. Februar</time>
+                                        <time datetime="2023-02-16" itemprop="startDate">16.</time>–<time datetime="2023-02-18" itemprop="endDate">18. Februar</time>
                                 </span>
                         </li>
                         <li class="hidden">
                                 <a title="Doodle Formular Chrampfärli Session März" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/aMwLANGd">Chrampfärli März</a>, 
                                 <span class="dates">
-                                        <time datetime="2023-03-15" itemprop="startDate">15.</time>–
-                                        <time datetime="2023-03-18" itemprop="endDate">18. März 🌱</time>
+                                        <time datetime="2023-03-15" itemprop="startDate">15.</time>–<time datetime="2023-03-18" itemprop="endDate">18. März 🌱</time>
                                 </span>
                         </li>
                         <li class="hidden">
                                 <a title="Doodle Formular Chrampfärli Session Mai" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/e91kNjBe">Chrampfärli Mai</a>, 
                                 <span class="dates">
-                                        <time datetime="2023-05-17" itemprop="startDate">17.</time>–
-                                        <time datetime="2023-05-20" itemprop="endDate">20. Mai(Auffahrt) 🪩🥳👾</time>, 
+                                        <time datetime="2023-05-17" itemprop="startDate">17.</time>–<time datetime="2023-05-20" itemprop="endDate">20. Mai(Auffahrt) 🪩🥳👾</time>, 
                                 </span>
                                 <a title="Karte für Mai 2023" rel="noreferrer" target="_blank" href="https://www.google.com/maps/d/edit?mid=1cDlzLGN_PL7Eq374Fe5FR68dyzVY0yg">Karte für Session</a>
                         </li>
                         <li class="hidden">
                                 <a title="Doodle Formular Chrampfärli Session Juni" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/e0YW7n7a">Chrampfärli Juni</a>, 
                                 <span class="dates">
-                                        <time datetime="2023-06-08" itemprop="startDate">8.</time>–
-                                        <time datetime="2023-06-10" itemprop="endDate">10. Juni</time>
+                                        <time datetime="2023-06-08" itemprop="startDate">8.</time>–<time datetime="2023-06-10" itemprop="endDate">10. Juni</time>
                                 </span>
                         </li>
                         <li>
                                 <a title="Doodle Formular Chrampfärli Session Juli" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/dL7Kzrpb">Chrampfärli Juli</a>, 
                                 <span class="dates">
-                                        <time datetime="2023-07-06" itemprop="startDate">6.</time>–
-                                        <time datetime="2023-07-10" itemprop="endDate">10. Juli</time>
+                                        <time datetime="2023-07-06" itemprop="startDate">6.</time>–<time datetime="2023-07-10" itemprop="endDate">10. Juli</time>
                                 </span>
                         </li>
                         <li>
                                 Wimdu 2023, 
-                                <time class="dates dates--not-fix">August~September</time>
+                                <time class="dates dates--not-fix">~September</time>
                         </li>
                 </ul>
                 <p>Bisch öi där bii? Denn ohne dich geht gar nichts. Hilf uns mit der Planung und trag dich für die <a title="Chrampfär*inne Sessions 2023" href="#chrampfu-sessions">Chrampfärli Sessions</a> ⇡ im Doodle Form ein — wanns dir passt 🖤 So können wir uns organisieren und du bleibst auf dem Laufenden ;-) Merci!</p>
@@ -355,8 +349,7 @@
                                 <span class="session-name"><a href="https://www.instagram.com/p/CooptGaq9eQ/" title="Januar Chrampfärli Session auf Instagram" rel="noreferrer" target="_blank">Chrampfärli Januar</a></span>
                                 <span class="tasks-emoji">☃️🌱✂️</span>
                                 <span class="dates">
-                                        <time datetime="2023-01-25" itemprop="startDate">25.</time>–
-                                        <time datetime="2023-01-28" itemprop="endDate">28. Januar 2023</time>
+                                        <time datetime="2023-01-25" itemprop="startDate">25.</time>–<time datetime="2023-01-28" itemprop="endDate">28. Januar 2023</time>
                                 </span>
                                 <span class="space">Brentjong
                                         <span class="tasks">Winterschnitt</span>
@@ -366,8 +359,7 @@
                                 <span class="session-name">Chrampfärli Februar</span>
                                 <span class="tasks-emoji">🌤️🗺🌱✂️</span>
                                 <span class="dates">
-                                        <time datetime="2023-02-16" itemprop="startDate">16.</time>–
-                                        <time datetime="2023-02-18" itemprop="endDate">18. Februar 2023</time>
+                                        <time datetime="2023-02-16" itemprop="startDate">16.</time>–<time datetime="2023-02-18" itemprop="endDate">18. Februar 2023</time>
                                 </span>
                                 <span class="space">Brentjong 2.0
                                         <span class="tasks">Konzeption & Planung, Winterschnitt, Reihen auflösen</span>
@@ -377,8 +369,7 @@
                                 <span class="session-name"><a href="https://www.instagram.com/p/CqCnQvQq8Zk/" title="März Chrampfärli Session auf Instagram" rel="noreferrer" target="_blank">Chrampfärli März</a></span>
                                 <span class="tasks-emoji">🌤️☀️🌱✂️🌳🦎🦋🐇🦅🌿</span>
                                 <span class="dates">
-                                        <time datetime="2023-03-15" itemprop="startDate">15.</time>–
-                                        <time datetime="2023-03-18" itemprop="endDate">18. März 2023</time>
+                                        <time datetime="2023-03-15" itemprop="startDate">15.</time>–<time datetime="2023-03-18" itemprop="endDate">18. März 2023</time>
                                 </span>
                                 <span class="space">Brentjong 2.0
                                         <span class="tasks">Reihen auflösen, Reben rausschrecken, Winterschnitt</span>
@@ -388,8 +379,7 @@
                                 <span class="session-name"><a href="https://www.instagram.com/p/Csn4TWEqHZ-/" title="Mai Chrampfärli Session auf Instagram" rel="noreferrer" target="_blank">Chrampfärli Mai</a></span>
                                 <span class="tasks-emoji">⛅🌤️🦜🐝🦎🌱🔪🛸👾🔊🪩🥳</span>
                                 <span class="dates">
-                                        <time datetime="2023-05-17" itemprop="startDate">17.</time>–
-                                        <time datetime="2023-05-20" itemprop="endDate">20. Mai(Auffahrt)</time>, <a title="Karte für Mai 2023" rel="noreferrer" target="_blank" href="https://www.google.com/maps/d/edit?mid=1cDlzLGN_PL7Eq374Fe5FR68dyzVY0yg">Karte für Mai Session</a>
+                                        <time datetime="2023-05-17" itemprop="startDate">17.</time>–<time datetime="2023-05-20" itemprop="endDate">20. Mai(Auffahrt)</time>, <a title="Karte für Mai 2023" rel="noreferrer" target="_blank" href="https://www.google.com/maps/d/edit?mid=1cDlzLGN_PL7Eq374Fe5FR68dyzVY0yg">Karte für Mai Session</a>
                                 </span>
                                 
                                 <span class="space">Sender / Brentjong / Brentjong 2.0
@@ -398,10 +388,9 @@
                         </li>
                         <li>
                                 <span class="session-name">Chrampfärli Juni</span>
-                                <span class="tasks-emoji">🌞💦🦸‍♀️🍃☔🐦🗻🫕</span>
+                                <span class="tasks-emoji">🌞🦸‍♀️💦🍃☔🐝🦎🦅🗻🫕</span>
                                 <span class="dates">
-                                        <time datetime="2023-06-08" itemprop="startDate">8.</time>–
-                                        <time datetime="2023-06-10" itemprop="endDate">10. Juni</time>
+                                        <time datetime="2023-06-08" itemprop="startDate">8.</time>–<time datetime="2023-06-10" itemprop="endDate">10. Juni</time>
                                 </span>
                                 
                                 <span class="space">Brentjong / Brentjong 2.0
