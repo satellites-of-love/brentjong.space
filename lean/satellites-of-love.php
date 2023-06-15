@@ -27,6 +27,43 @@
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
         <link rel="manifest" href="/site.webmanifest">
         <style type="text/css">
+        
+        @keyframes grow-xy {
+                from {
+                        transform: scaleX(0) scaleY(0);
+                }
+                to {
+                        transform: scaleX(1) scaleY(1);
+                }
+        }
+
+        @keyframes shrink-xy {
+                from {
+                        transform: scaleX(1) scaleY(1);
+                }
+                to {
+                        transform: scaleX(0) scaleY(0);
+                }
+        }
+
+        ::view-transition-old(*),
+        ::view-transition-new(*) {
+                height: auto;
+                right: 0;
+                left: auto;
+        }
+
+        ::view-transition-old(*) {
+                animation: 0.55s ease-out both shrink-xy;
+                transform-origin: right top;
+        }
+
+        ::view-transition-new(*) {
+                animation: 0.55s 0.55s ease-in both grow-xy;
+                transform-origin: right bottom;
+        }
+
+        
         * {
                 margin: 0;
                 padding: 0;

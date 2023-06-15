@@ -29,7 +29,43 @@
         <link rel="icon" type="image/png" sizes="16x16" href="/chrampfaerli/favicon-16x16.png">
         <link rel="manifest" href="/chrampfaerli/site.webmanifest">
         <style type="text/css">
-        * {
+        
+        @keyframes grow-xy {
+                from {
+                        transform: scaleX(0) scaleY(0);
+                }
+                to {
+                        transform: scaleX(1) scaleY(1);
+                }
+        }
+
+        @keyframes shrink-xy {
+                from {
+                        transform: scaleX(1) scaleY(1);
+                }
+                to {
+                        transform: scaleX(0) scaleY(0);
+                }
+        }
+
+        ::view-transition-old(*),
+        ::view-transition-new(*) {
+                height: auto;
+                right: 0;
+                left: auto;
+        }
+
+        ::view-transition-old(*) {
+                animation: 0.55s ease-out both shrink-xy;
+                transform-origin: right top;
+        }
+
+        ::view-transition-new(*) {
+                animation: 0.55s 0.55s ease-in both grow-xy;
+                transform-origin: right bottom;
+        }
+       
+       * {
                 margin: 0;
                 padding: 0;
         }
@@ -292,10 +328,10 @@
                                 </span>
                                 <a title="Karte für Mai 2023" rel="noreferrer" target="_blank" href="https://www.google.com/maps/d/edit?mid=1cDlzLGN_PL7Eq374Fe5FR68dyzVY0yg">Karte für Session</a>
                         </li>
-                        <li>
+                        <li class="hidden">
                                 <a title="Doodle Formular Chrampfärli Session Juni" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/e0YW7n7a">Chrampfärli Juni</a>, 
                                 <span class="dates">
-                                        <time datetime="2023-06-07" itemprop="startDate">7.</time>–
+                                        <time datetime="2023-06-08" itemprop="startDate">8.</time>–
                                         <time datetime="2023-06-10" itemprop="endDate">10. Juni</time>
                                 </span>
                         </li>
@@ -358,6 +394,18 @@
                                 
                                 <span class="space">Sender / Brentjong / Brentjong 2.0
                                         <span class="tasks">Sender takeover, ausbrechen/foltern, Kräuter pflanzen</span>
+                                </span>
+                        </li>
+                        <li>
+                                <span class="session-name">Chrampfärli Juni</span>
+                                <span class="tasks-emoji">🌞💦🦸‍♀️🍃☔🐦🗻🫕</span>
+                                <span class="dates">
+                                        <time datetime="2023-06-08" itemprop="startDate">8.</time>–
+                                        <time datetime="2023-06-10" itemprop="endDate">10. Juni</time>
+                                </span>
+                                
+                                <span class="space">Brentjong / Brentjong 2.0
+                                        <span class="tasks">Einschlaufen, ausbrechen/foltern, mähen</span>
                                 </span>
                         </li>
                 </ul>
