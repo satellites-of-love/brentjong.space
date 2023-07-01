@@ -1,0 +1,4 @@
+name: brentjong.space
+recipe: drupal10
+config:
+  webroot: web
