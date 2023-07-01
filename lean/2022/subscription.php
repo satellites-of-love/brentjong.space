@@ -354,57 +354,9 @@
                 <p>Im Herbst 2022 erntet Satellites of Love Association Pinot Noir Trauben in Brentjong und bringt sie nach La Neuveville zu Fabien Henriot, in Leuk zu Vin d'oeuvre, nach Bern zu Bruno Bucher, in Ayent zu Chèrouche, nach Zürich zur Domaine Baby Angel und ins Bahnhöfli Ostermundigen zu Satellites of Love Association.</p>
                 <p>Et voilà: Vanessa Atalanta, Funkloch, Hirsch, Balsam, Pinot D'angio, Oh lö lux!<br>
                 Sechs wild vergorene Pinot Noir Interpretationen — mal ungestüm, mal elegant, mal Bubbles, mal rot, mal rosé. It is what it is!</p>
-                <p>Willst du dir eines der raren Six-Packs sichern, dann reserviere und bestelle dir deine 6-Pack Variante(n) :)</p>
-                
-                <?php
-                    // print messages
-                    $form->messages();
-
-                    // create the form
-                    // $form->create_form('First name, Last name, Email address|email, Message|textarea');
-                    // $form->submit_button('Subskription abschicken');
-
-                    // 'text' => 'username,Username,,usernameID,placeholder="Enter your username"'
-                ?>
-                <ul class="package-list">
-                    <li>
-                        Explorer*in: Gerne reserviere und bestelle ich
-                        <?php
-                            $dataPackageExplorer = [
-                                'radio' => 'package_explorer,,[kein|ein 🔥|zwei 🚀|drei ❤️‍🔥],Explorer Package'
-                            ];
-                            
-                            $form->fastform($dataPackageExplorer);                    
-                        ?>
-                        6-Pack(s) — CHF 168 pro 6-Pack
-                    </li>
-                    <li>
-                        Enthusiast*in: Gerne reserviere und bestelle ich
-                        <?php
-                            $dataPackageEnthusiast = [
-                                'radio' => 'package_enthusiast,,[kein|ein 🔥|zwei 🚀|drei ❤️‍🔥],Enthusiast Package'
-                            ];
-                            
-                            $form->fastform($dataPackageEnthusiast);                    
-                        ?>
-                        6-Pack(s), möchte das Projekt aber auch zusätzlich als Gönner*in unterstützen — CHF 250 pro 6-Pack
-                        <ul>
-                            <li>dafür pflanzen 🧑‍🌾 Satellites of Love ein Baum 🌳 / Busch 🌱</li>
-                            <li>du erhälst ein Booklet 📓✧˖°.</li>
-                            <li>und wirst auf ein Apéro 🍷 eingeladen 🥂</li>
-                        </ul>
-                    </li>
-                </ul>
-
-
-
-                <form action="">
-                    <input type="text" placeholder="Vorname" name="Vorname" required>
-                    <input type="text" placeholder="Name" name="Name" required>
-                    <input type="email" placeholder="Email Adresse" name="Email Adresse" required>
-                </form>
-                <!-- <ul>
-                    <li>Explorer*in 🗾 Gerne reserviere und bestelle ich ein 🔥 / zwei 🚀 / drei ❤️‍🔥 6-Pack(s) (CHF 168 pro 6-Pack)</li>
+                <p>Willst du dir eines der raren Six-Packs sichern, dann reserviere und bestelle dir hier bald deine 6-Pack Variante(n) :)</p>
+                <ul>
+                    <li>Explorer*in: 🗾 Gerne reserviere und bestelle ich ein 🔥 / zwei 🚀 / drei ❤️‍🔥 6-Pack(s) (CHF 168 pro 6-Pack)</li>
                     <li>Enthusiast*in 🤩: Gerne reserviere und bestelle ich ein 🔥 / zwei 🚀 / drei ❤️‍🔥 6-Pack(s), möchte das Projekt aber auch zusätzlich als Gönner*in unterstützen (CHF 250 pro 6-Pack)
                         <ul>
                             <li>dafür pflanzen 🧑‍🌾 Satellites of Love ein Baum 🌳 / Busch 🌱</li>
@@ -412,7 +364,7 @@
                             <li>und wirst auf ein Apéro 🍷 eingeladen 🥂</li>
                         </ul>
                     </li>
-                </ul> -->
+                </ul>
                 <p>
                         <a title="Brentjong dot Space" href="/">Brentjong.space</a> — a permaculture space curated by
                 </p>
