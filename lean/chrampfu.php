@@ -399,7 +399,7 @@
                         </li>
                 </ul>
                 <p>
-                        <a title="Brentjong dot Space" href="/">Brentjong.space</a> — a permaculture space curated by
+                        <a title="Brentjong dot Space" href="/">Brentjong.space</a> — a growing permaculture space curated by
                 </p>
                 <p lang="en" class="universe">
                         <span role="presentation">🛸　　　 　🌎</span><a class="link" title="Satellites of Love. Visit us on Instagram." href="https://www.instagram.com/satellites.of.love" rel="nofollow"><span class="link__base-station" role="img" aria-label="Satellite base station">📡</span> of <span role="img" aria-label="Love">❤️</span><em class="link__satellite">🛰<em class="link__satellite">❤️<em class="link__satellite">🛰<em class="link__satellite">❤️</em></em></em></a><span role="presentation">　°　　🌓　•　　.°•　　　🚀 ✯
