@@ -1,33 +1,3 @@
-<?php
-    // include the Formr class
-    // require_once 'Formr/class.formr.php';
-    require_once '../vendor/autoload.php';
-
-    // create our form object and use Bootstrap 4 as our form wrapper
-    $form = new Formr\Formr();
-
-    // make all fields required
-    $form->required = '*';
-
-    // check if the form has been submitted
-    if($form->submitted())
-    {
-        // make sure our Message field has at least 10 characters
-        $form->validate('Message(min[10])');
-
-        // let's email the form
-        $to = 'me@email.com';
-        $from = 'donotreply@domain.com';
-        $subject = 'Contact Form Submission';
-
-        // this processes our form, cleans the input, and sends it as an HTML email
-        if($form->send_email($to, $subject, 'POST', $from, 'HTML'))
-        {
-            // email sent; print a thank you message
-            $form->success_message('Thank you for filling out our form!');
-        }
-    }
-?>
 <!DOCTYPE html>
 <html lang="de-CH">
 <head>
