@@ -2,10 +2,10 @@
 <html lang="de-CH">
 <head>
         <link href="https://fonts.googleapis.com/css?family=Droid+Sans&display=swap"/>
-        <title>Satellites of Love 6-Pack Subskription, Limited edition of 250 six-packs</title>
+        <title>Satellites of Love 6-Pack Subskription 2022 — Limited edition of 250 six-packs</title>
         <meta name="robots" content="noindex">
         <meta name="view-transition" content="same-origin">
-        <meta name="description" content="Chrampfu — Join us to help out in the vineyard and spread some intergalactic love with us :) Looking forward to seeing you. brentjong.space is a permaculture garden/space curated by Satellites of Love Association.">
+        <meta name="description" content="6-Pack of Love Subskription 🪩 2022 — Limited edition of 250 six-packs">
         <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
         <meta name="viewport" content="width=device-width">
         <meta name="geo.region" content="CH-BE" />
@@ -17,7 +17,7 @@
         <meta name="geo.position" content="46.317660;7.652257" />
         <meta name="ICBM" content="46.317660, 7.652257" />
         <meta property="og:site_name" content="brentjong.space">
-        <meta property="og:title" content="Chrampfu — Join us to help out in the vineyard and spread some intergalactic love with us :) Looking forward to seeing you." />
+        <meta property="og:title" content="6-Pack of Love Subskription 🪩 2022 — Limited edition of 250 six-packs" />
         <meta property="og:description" content="brentjong.space is a permaculture garden/space curated by Satellites of Love Association and is looking for friendly, open-minded people who want to participate in the vineyard. Join us :)" />
         <meta property="og:image" itemprop="image" content="https://brentjong.space/chrampfaerli/apple-touch-icon.png">
         <meta property="og:type" content="website" />
