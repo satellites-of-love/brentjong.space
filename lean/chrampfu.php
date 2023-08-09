@@ -330,15 +330,17 @@
                                         <time datetime="2023-06-08" itemprop="startDate">8.</time>–<time datetime="2023-06-10" itemprop="endDate">10. Juni</time>
                                 </span>
                         </li>
-                        <li>
+                        <li class="hidden">
                                 <a title="Doodle Formular Chrampfärli Session Juli" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/dL7Kzrpb">Chrampfärli Juli</a>, 
                                 <span class="dates">
                                         <time datetime="2023-07-06" itemprop="startDate">6.</time>–<time datetime="2023-07-10" itemprop="endDate">10. Juli</time>
                                 </span>
                         </li>
                         <li>
-                                Wimdu 2023, 
-                                <time class="dates dates--not-fix">~September</time>
+                                <a title="Doodle Formular Chrampfärli Session September (Wimdu)" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/avZvRvMa">September (Wimdu aka harvest)</a>, 
+                                🤞 <span class="dates dates--not-fix">
+                                        <time datetime="2023-09-14" itemprop="startDate">14.</time>–<time datetime="2023-09-24" itemprop="endDate">24. September</time>
+                                </span> abhängig von der phenolischen Reife
                         </li>
                 </ul>
                 <p>Bisch öi där bii? Denn ohne dich geht gar nichts. Hilf uns mit der Planung und trag dich für die <a title="Chrampfär*inne Sessions 2023" href="#chrampfu-sessions">Chrampfärli Sessions</a> ⇡ im Doodle Form ein — wanns dir passt 🖤 So können wir uns organisieren und du bleibst auf dem Laufenden ;-) Merci!</p>
@@ -395,6 +397,17 @@
                                 
                                 <span class="space">Brentjong / Brentjong 2.0
                                         <span class="tasks">Einschlaufen, ausbrechen/foltern, mähen</span>
+                                </span>
+                        </li>
+                        <li>
+                                <span class="session-name"><a href="https://www.instagram.com/p/CuYzjmUKfQw/" title="Juli Chrampfärli Session auf Instagram" rel="noreferrer" target="_blank">Chrampfärli Juli</a></span>
+                                <span class="tasks-emoji">🌞🥵💦⛲🩱⛱️🍃🐝🦎🔥🧀🍷</span>
+                                <span class="dates">
+                                        <time datetime="2023-07-06" itemprop="startDate">6.</time>–<time datetime="2023-07-10" itemprop="endDate">10. Juli</time>
+                                </span>
+                                
+                                <span class="space">Brentjong / Brentjong 2.0
+                                        <span class="tasks">Einschlaufen, ausbrechen/foltern, entlauben</span>
                                 </span>
                         </li>
                 </ul>
