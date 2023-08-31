@@ -5,7 +5,7 @@
         <title>Satellites of Love Sixpack Subskription 2022 — Limited edition of 250 six-packs</title>
         <meta name="robots" content="noindex">
         <meta name="view-transition" content="same-origin">
-        <meta name="description" content="Sixpack of Love Subskription 🪩 2022 — Limited edition of 250 six-packs">
+        <meta name="description" content="Sixpack of Love Subskription 🍾 2022 — Limited edition of 250 six-packs">
         <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
         <meta name="viewport" content="width=device-width">
         <meta name="geo.region" content="CH-BE" />
@@ -17,7 +17,7 @@
         <meta name="geo.position" content="46.317660;7.652257" />
         <meta name="ICBM" content="46.317660, 7.652257" />
         <meta property="og:site_name" content="brentjong.space">
-        <meta property="og:title" content="Sixpack of Love Subskription 🪩 2022 — Limited edition of 250 six-packs" />
+        <meta property="og:title" content="Sixpack of Love Subskription 🍾 2022 — Limited edition of 250 six-packs" />
         <meta property="og:description" content="brentjong.space is a permaculture garden/space curated by Satellites of Love Association and is looking for friendly, open-minded people who want to participate in the vineyard. Join us :)" />
         <meta property="og:image" itemprop="image" content="https://brentjong.space/apple-touch-icon.png">
         <meta property="og:type" content="website" />
@@ -319,7 +319,7 @@
 <body>
         <main class="content">
                 <h2>Limited edition of 250</h2>
-                <h1>Sixpack of Love<br/>Subskription 🪩</h1>
+                <h1>Sixpack of Love<br/>Subskription 🍾</h1>
                 <p>Im Herbst 2022 erntet Satellites of Love Association Pinot Noir Trauben in Brentjong und bringt sie nach La Neuveville zu Fabien Henriot, in Leuk zu Vin d'oeuvre, nach Bern zu Bruno Bucher, in Ayent zu Chèrouche, nach Zürich zur Domaine Baby Angel und ins Bahnhöfli Ostermundigen zu Satellites of Love Association.</p>
                 <p>Et voilà: Vanessa Atalanta, Funkloch, Ciervo, Balsam, Pinot D'angio, Oh le lux!<br>
                 Sechs wild vergorene Pinot Noir Interpretationen — mal ungestüm, mal elegant, mal Bubbles, mal rot, mal rosé. It is what it is!</p>
