@@ -325,8 +325,8 @@
                 Sechs wild vergorene Pinot Noir Interpretationen — mal ungestüm, mal elegant, mal Bubbles, mal rot, mal rosé. It is what it is!</p>
                 <p>Willst du dir eines der raren Six-Packs sichern, dann reserviere und bestelle dir jetzt exklusiv deine Sixpack Variante(n) :)</p>
                 <ul class="love-list love-list--package">
-                    <li>Gerne reserviere und bestelle ich ein <a href="https://www.trallala-weine.ch/shop/typ/weinkiste/sixpack-of-love/">Sixpack of Love</a> ❤️ <span class="hidden">(CHF 168 pro Sixpack)</span>im Trallala</li>
-                    <li>Gerne reserviere und bestelle ich ein <a href="https://www.trallala-weine.ch/shop/typ/weinkiste/sixpack-of-love-supreme/">Sixpack of Love Supreme</a> ❤️‍🔥, möchte das Projekt aber auch zusätzlich als Gönner*in unterstützen <span class="hidden">(CHF 250 pro Sixpack)</span>
+                    <li>Gerne reserviere und bestelle ich ein <a href="https://www.trallala-weine.ch/shop/typ/weinkiste/sixpack-of-love/" title="Bestelle dir dein Sixpack of Love im Trallala - CHF 168 pro Sixpack">Sixpack of Love</a> ❤️ im Trallala</li>
+                    <li>Gerne reserviere und bestelle ich ein <a href="https://www.trallala-weine.ch/shop/typ/weinkiste/sixpack-of-love-supreme/" title="Bestelle dir dein Sixpack of Love Supreme im Trallala und unterstütze das Projekt als Gönner*in - CHF 250 pro Sixpack">Sixpack of Love Supreme</a> ❤️‍🔥, möchte das Projekt aber auch zusätzlich als Gönner*in unterstützen</span>
                         <ul>
                             <li>dafür pflanzen 🧑‍🌾 Satellites of Love ein Baum 🌳 / Busch 🌱</li>
                             <li>du erhälst ein Poster 📓✧˖°.</li>
