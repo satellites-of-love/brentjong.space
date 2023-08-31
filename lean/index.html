@@ -124,24 +124,31 @@
         p.universe {
                 padding-block-end: var(--brentjong-space--layout--padding);
         }
-        .date-list { margin-inline-start: 1.2em; }
+        .love-list { margin-inline-start: 1.2em; }
         @media (max-width: 700px) {
-                .date-list li {
+                .love-list li {
                         padding-block-end: 0.5em;
                 }
-                .date-list .dates {
+                .love-list .dates {
                         display: block;
                 }
         }
-        .date-list li::marker {
+        .love-list li::marker {
                 content: '🚀 ';
         }
-        .date-list--past li::marker {
+        .love-list--past li::marker {
                 content: '❤️ ';
         }
-        .date-list li:hover::marker, .date-list li:focus::marker {
+        .love-list li:hover::marker, .love-list li:focus::marker {
                 animation: rocket-launch 0.25s infinite 0.8s;
                 position: absolute;
+        }
+        .love-list--package { margin-inline-start: .3em; }
+        .love-list--package li::marker {
+                content: '❤️‍🔥 ';
+        }
+        .love-list--package > li:first-child::marker {
+                content: '❤️ ';
         }
         .dates--not-fix {
                 text-decoration: wavy underline;

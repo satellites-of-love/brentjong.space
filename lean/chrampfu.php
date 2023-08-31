@@ -130,38 +130,45 @@
         p.universe {
                 padding-block-end: var(--brentjong-space--layout--padding);
         }
-        .date-list { margin-inline-start: 1.2em; }
+        .love-list { margin-inline-start: 1.2em; }
         @media (max-width: 700px) {
-                .date-list li {
+                .love-list li {
                         padding-block-end: 0.5em;
                 }
-                .date-list .dates {
+                .love-list .dates {
                         display: block;
                 }
         }
-        .date-list li::marker {
+        .love-list li::marker {
                 content: '🚀 ';
         }
         
-        .date-list--past li + li {
+        .love-list--past li + li {
                 padding-block-start: 0.75em;
         }
-        .date-list--past li::marker {
+        .love-list--past li::marker {
                 content: '❤️ ';
         }
-        .date-list--past .dates {
+        .love-list--past .dates {
                 display: block;
         }
-        .date-list--past .space {
+        .love-list--past .space {
                 display: block;
         }
-        .date-list--past .space .tasks::before {
+        .love-list--past .space .tasks::before {
                 content: '|';
                 margin-inline-end: .4em;
         }
-        .date-list li:hover::marker, .date-list li:focus::marker {
+        .love-list li:hover::marker, .love-list li:focus::marker {
                 animation: rocket-launch 0.25s infinite 0.8s;
                 position: absolute;
+        }
+        .love-list--package { margin-inline-start: .3em; }
+        .love-list--package li::marker {
+                content: '❤️‍🔥 ';
+        }
+        .love-list--package > li:first-child::marker {
+                content: '❤️ ';
         }
         .dates--not-fix {
                 text-decoration: wavy underline;
@@ -298,7 +305,7 @@
         <main class="content">
                 <h1>Salut Chram&shy;pfär*(l)i 🖖</h1>
                 <p>Diz Jahr — yup, 2023 — heiwär nu folgundi Chrampfär*inne Sessions igiplaant:</p>
-                <ul class="date-list" id="chrampfu-sessions">
+                <ul class="love-list" id="chrampfu-sessions">
                         <li class="hidden">
                                 <a title="Doodle Formular Chrampfärli Session Januar" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/b81j253d">Chrampfärli Januar</a>, 
                                 <span class="dates">
@@ -346,7 +353,7 @@
                 <p>Bisch öi där bii? Denn ohne dich geht gar nichts. Hilf uns mit der Planung und trag dich für die <a title="Chrampfär*inne Sessions 2023" href="#chrampfu-sessions">Chrampfärli Sessions</a> ⇡ im Doodle Form ein — wanns dir passt 🖤 So können wir uns organisieren und du bleibst auf dem Laufenden ;-) Merci!</p>
                 <p lang="en">Sign up for the above dates to help out in the vineyard and spread some <a href="https://www.youtube.com/watch?v=qORYO0atB6g" rel="nofollow" title="Beastie Boys - Intergalactic">intergalactic</a> 👾 love <span role="img" aria-label="love">😍🥰</span> with us. Looking forward to seeing you 🤗</p>
                 <h2>Värgangini Chrampfär*inne Session(s):</h2>
-                <ul class="date-list date-list--past">
+                <ul class="love-list love-list--past">
                         <li>
                                 <span class="session-name"><a href="https://www.instagram.com/p/CooptGaq9eQ/" title="Januar Chrampfärli Session auf Instagram" rel="noreferrer" target="_blank">Chrampfärli Januar</a></span>
                                 <span class="tasks-emoji">☃️🌱✂️</span>

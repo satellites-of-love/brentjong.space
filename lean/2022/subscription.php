@@ -145,49 +145,48 @@
         p.universe {
                 padding-block-end: var(--brentjong-space--layout--padding);
         }
-        .date-list { margin-inline-start: 1.2em; }
+        .love-list { margin-inline-start: 1.2em; }
         @media (max-width: 700px) {
-                .date-list li {
+                .love-list li {
                         padding-block-end: 0.5em;
                 }
-                .date-list .dates {
+                .love-list .dates {
                         display: block;
                 }
         }
-        .date-list li::marker {
+        .love-list li::marker {
                 content: '🚀 ';
         }
         
-        .date-list--past li + li {
+        .love-list--past li + li {
                 padding-block-start: 0.75em;
         }
-        .date-list--past li::marker {
+        .love-list--past li::marker {
                 content: '❤️ ';
         }
-        .date-list--past .dates {
+        .love-list--past .dates {
                 display: block;
         }
-        .date-list--past .space {
+        .love-list--past .space {
                 display: block;
         }
-        .date-list--past .space .tasks::before {
+        .love-list--past .space .tasks::before {
                 content: '|';
                 margin-inline-end: .4em;
         }
-        .date-list li:hover::marker, .date-list li:focus::marker {
+        .love-list li:hover::marker, .love-list li:focus::marker {
                 animation: rocket-launch 0.25s infinite 0.8s;
                 position: absolute;
         }
+        .love-list--package { margin-inline-start: .3em; }
+        .love-list--package li::marker {
+                content: '❤️‍🔥 ';
+        }
+        .love-list--package > li:first-child::marker {
+                content: '❤️ ';
+        }
         .dates--not-fix {
                 text-decoration: wavy underline;
-        }
-
-        .package-list { margin-inline-start: 1.2em; }
-        .package-list > li::marker {
-                content: '🤩 ';
-        }
-        .package-list > li:first-child::marker {
-                content: '🗾 ';
         }
         
         /* Link style v1 */
@@ -325,9 +324,9 @@
                 <p>Et voilà: Vanessa Atalanta, Funkloch, Hirsch, Balsam, Pinot D'angio, Oh lö lux!<br>
                 Sechs wild vergorene Pinot Noir Interpretationen — mal ungestüm, mal elegant, mal Bubbles, mal rot, mal rosé. It is what it is!</p>
                 <p>Willst du dir eines der raren Six-Packs sichern, dann reserviere und bestelle dir hier bald deine Sixpack Variante(n) :)</p>
-                <ul>
-                    <li>Sixpack of Love: Gerne reserviere und bestelle ich ein 🔥 / zwei 🚀 / drei ❤️‍🔥 Sixpack(s) (CHF 168 pro Sixpack)</li>
-                    <li>Sixpack of Love Supreme: Gerne reserviere und bestelle ich ein 🔥 / zwei 🚀 / drei ❤️‍🔥 Sixpack(s), möchte das Projekt aber auch zusätzlich als Gönner*in unterstützen (CHF 250 pro Sixpack)
+                <ul class="love-list love-list--package">
+                    <li>Gerne reserviere und bestelle ich ein <a href="https://www.trallala-weine.ch/shop/typ/weinkiste/sixpack-of-love/">Sixpack of Love</a> ❤️ <span class="hidden">(CHF 168 pro Sixpack)</span>im Trallala</li>
+                    <li>Gerne reserviere und bestelle ich ein <a href="https://www.trallala-weine.ch/shop/typ/weinkiste/sixpack-of-love-supreme/">Sixpack of Love Supreme</a> ❤️‍🔥, möchte das Projekt aber auch zusätzlich als Gönner*in unterstützen <span class="hidden">(CHF 250 pro Sixpack)</span>
                         <ul>
                             <li>dafür pflanzen 🧑‍🌾 Satellites of Love ein Baum 🌳 / Busch 🌱</li>
                             <li>du erhälst ein Poster 📓✧˖°.</li>
