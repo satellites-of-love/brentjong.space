@@ -320,13 +320,13 @@
         <main class="content">
                 <h2>Limited edition of 250</h2>
                 <h1>Sixpack of Love<br/>Subskription 🍾</h1>
-                <p>Im Herbst 2022 erntet Satellites of Love Association Pinot Noir Trauben in Brentjong und bringt sie nach La Neuveville zu Fabien Henriot, in Leuk zu Vin d'oeuvre, nach Bern zu Bruno Bucher, in Ayent zu Chèrouche, nach Zürich zur Domaine Baby Angel und ins Bahnhöfli Ostermundigen zu Satellites of Love Association.</p>
+                <p>Im Herbst 2022 erntet Satellites of Love Association Pinot Noir Trauben 🍇 in Brentjong und bringt sie nach La Neuveville zu Fabien Henriot, in Leuk zu Vin d'oeuvre, nach Bern zu Bruno Bucher, in Ayent zu Chèrouche, nach Zürich zur Domaine Baby Angel und ins Bahnhöfli Ostermundigen zu Satellites of Love Association.</p>
                 <p>Et voilà: Vanessa Atalanta, Funkloch, Ciervo, Balsam, Pinot D'angio, Oh le lux!<br>
                 Sechs wild vergorene Pinot Noir Interpretationen — mal ungestüm, mal elegant, mal Bubbles, mal rot, mal rosé. It is what it is!</p>
                 <p>Willst du dir eines der raren Sixpacks sichern, dann reserviere und bestelle dir jetzt deine Sixpack Variante 🍾</p>
                 <ul class="love-list love-list--package">
-                    <li>Gerne bestelle ich ein <a href="https://www.trallala-weine.ch/shop/typ/weinkiste/sixpack-of-love/" title="Bestelle dir dein Sixpack of Love im Trallala - CHF 168 pro Sixpack">Sixpack of Love</a> ❤️ im Trallala</li>
-                    <li>Ich möchte ein <a href="https://www.trallala-weine.ch/shop/typ/weinkiste/sixpack-of-love-supreme/" title="Bestelle dir dein Sixpack of Love Supreme im Trallala und unterstütze das Projekt als Gönner*in - CHF 250 pro Sixpack">Sixpack of Love Supreme</a> ❤️‍🔥 und unterstütze das Projekt zusätzlich als Gönner*in</span>
+                    <li>Bestelle dir dein <a href="https://www.trallala-weine.ch/shop/typ/weinkiste/sixpack-of-love/" title="Bestelle dir dein Sixpack of Love im Trallala - CHF 168 pro Sixpack">Sixpack of Love</a> ❤️ im Trallala</li>
+                    <li>Ich möchte lieber ein <a href="https://www.trallala-weine.ch/shop/typ/weinkiste/sixpack-of-love-supreme/" title="Bestelle dir dein Sixpack of Love Supreme im Trallala und unterstütze das Projekt als Gönner*in - CHF 250 pro Sixpack">Sixpack of Love Supreme</a> ❤️‍🔥 und unterstütze das Projekt zusätzlich als Gönner*in</span>
                         <ul>
                             <li>dafür pflanzen 🧑‍🌾 Satellites of Love einen Strauch 🌱 / Wildobst 🌳 zur Er­hö­hung der Biodiversität Brentjongs</li>
                             <li>du erhälst ein Poster 📓✧˖°. von Satellites of Love</li>
