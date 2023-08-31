@@ -19,15 +19,15 @@
         <meta property="og:site_name" content="brentjong.space">
         <meta property="og:title" content="Sixpack of Love Subskription 🪩 2022 — Limited edition of 250 six-packs" />
         <meta property="og:description" content="brentjong.space is a permaculture garden/space curated by Satellites of Love Association and is looking for friendly, open-minded people who want to participate in the vineyard. Join us :)" />
-        <meta property="og:image" itemprop="image" content="https://brentjong.space/chrampfaerli/apple-touch-icon.png">
+        <meta property="og:image" itemprop="image" content="https://brentjong.space/apple-touch-icon.png">
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="de_CH" />
         <meta name="theme-color" content="#17ff2142"/>
-        <link rel="icon" type="image/x-icon" href="/chrampfaerli/favicon.ico">
-        <link rel="apple-touch-icon" sizes="180x180" href="/chrampfaerli/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/chrampfaerli/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/chrampfaerli/favicon-16x16.png">
-        <link rel="manifest" href="/chrampfaerli/site.webmanifest">
+        <link rel="icon" type="image/x-icon" href="/favicon.ico">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
         <style type="text/css">
         
         @keyframes grow-xy {
@@ -331,7 +331,7 @@
                             <li>dafür pflanzen 🧑‍🌾 Satellites of Love einen Strauch 🌱 / Wildobst 🌳 zur Er­hö­hung der Biodiversität Brentjongs</li>
                             <li>du erhälst ein Poster 📓✧˖°. von Satellites of Love</li>
                             <li>und wirst auf ein Apéro 🍷 eingeladen 🥂</li>
-                            <li>du kriegst 1.5 Karma-Punkte</li>
+                            <li>plus kriegst 1.5 Karma-Punkte 👾</li>
                         </ul>
                     </li>
                 </ul>
