@@ -350,7 +350,7 @@
                                 </span> abhängig von der phenolischen Reife
                         </li>
                         <li>
-                                <a title="Doodle Formular Chrampfärli Session November" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/">Chrampfärli November</a>, 
+                                <a title="Doodle Formular Chrampfärli Session November" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/eZWn7xQa">Chrampfärli November</a>, 
                                 <span class="dates">
                                         <time datetime="2023-11-17" itemprop="startDate">17.</time>–<time datetime="2023-11-18" itemprop="endDate">18. November</time>
                                 </span>
