@@ -28,6 +28,10 @@
         <link rel="manifest" href="/site.webmanifest">
         <style type="text/css">
        
+
+        /* Color inspiration
+        color: blueviolet; */
+
        @keyframes grow-xy {
                 from {
                         transform: scaleX(0) scaleY(0);
@@ -63,7 +67,6 @@
                 transform-origin: right bottom;
         }
 
-
         * {
                 margin: 0;
                 padding: 0;
@@ -90,6 +93,16 @@
                 overflow-x: hidden;
                 overflow-y: scroll;
         }
+
+        .experiments p::first-letter {
+                /* margin-inline-start: var(--brentjong-space--layout--padding); */
+                color: blueviolet;
+                initial-letter: 2;
+                /* initial-letter-align: hanging; */
+                margin-inline-end: .3em;
+                text-shadow: 7px -3px 0 black;
+        }
+
         @media (max-width: 700px) {
                 body {
                         font-size: 0.75em;
