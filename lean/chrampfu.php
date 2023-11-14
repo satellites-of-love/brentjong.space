@@ -430,8 +430,8 @@
                                 <span class="session-name"><a title="Doodle Formular Chrampfärli Session September (Wimdu)" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/avZvRvMa">September (Wimdu aka harvest)</a></span>
                                 <span class="tasks-emoji">🌞🍇👾✂️🍇🍷</span>
                                 <span class="dates dates--not-fix">
-                                        <time datetime="2023-09-14" itemprop="startDate">14.</time>–<time datetime="2023-09-24" itemprop="endDate">24. September</time> (once planned)
-                                </span>but started around the 11th of September and ended around the 1st of October
+                                        <time datetime="2023-09-14" itemprop="startDate">14.</time>–<time datetime="2023-09-24" itemprop="endDate">24. September</time> (initial geplant)
+                                </span>startete am 11 September und endete um den 1 Oktober
                                 <span class="space">Brentjong / Brentjong 2.0
                                         <span class="tasks">Wimdu ✂️🍇</span>
                                 </span>
