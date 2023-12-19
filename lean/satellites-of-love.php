@@ -283,8 +283,8 @@
 </head>
 <body>
         <main class="content">
-                <h1><span class="link__base-station" role="img" aria-label="Satellite base station">📡</span> of <span role="img" aria-label="Love">❤️</span></h1>
-                <p>We are Satellites of Love — a wine making collective which creates organic, natural wines <span class="hidden">in Bern, Leuk, Ayent, La Neuveville and Zürich</span> from Pinot Noir grapes of our vineyards in the Swiss Alps — Brentjong 📡 (950m), Leuk (Valais).</p>
+                <h1>Satellites of Love</h1>
+                <p>We are a wine making collective which creates organic, natural wines <span class="hidden">in Bern, Leuk, Ayent, La Neuveville and Zürich</span> from Pinot Noir grapes of our vineyards in the Swiss Alps — Brentjong 📡 (950m), Leuk (Valais).</p>
                 <p>
                         <a title="Brentjong dot Space" href="/">Brentjong.space</a> — a growing permaculture space curated by us
                 </p>
