@@ -358,7 +358,7 @@
                 </ul>
                 <p>Bisch öi där bii? Denn ohne dich geht gar nichts. Hilf uns mit der Planung und trag dich für die <a title="Chrampfär*inne Sessions 2023" href="#chrampfu-sessions">Chrampfärli Sessions</a> ⇡ im Doodle Form ein — wanns dir passt 🖤 So können wir uns organisieren und du bleibst auf dem Laufenden ;-) Merci!</p>
                 <p lang="en">Sign up for the above dates to help out in the vineyard and spread some <a href="https://www.youtube.com/watch?v=qORYO0atB6g" rel="nofollow" title="Beastie Boys - Intergalactic">intergalactic</a> 👾 love <span role="img" aria-label="love">😍🥰</span> with us. Looking forward to seeing you 🤗</p>
-                <h2>Värgangini Chrampfär*inne Session(s) 2023:</h2>
+                <h2>Värgangeni Chrampfär*inne Session(s) 2023:</h2>
                 <ul class="love-list love-list--past">
                         <li>
                                 <span class="session-name"><a href="https://www.instagram.com/p/CooptGaq9eQ/" title="Januar Chrampfärli Session auf Instagram" rel="noreferrer" target="_blank">Chrampfärli Januar</a></span>
