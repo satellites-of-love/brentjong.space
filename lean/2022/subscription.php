@@ -136,7 +136,16 @@
                 -webkit-hyphens: auto;
         }
         h1 {
-                font-size: 4em;
+                font-size: 3em;
+                word-break: break-word;
+        }
+        @media (min-width: 500px) {
+                h1 {
+                        font-size: 4em;
+                }
+                h1 .force-break {
+                        display: block;
+                }
         }
         .content:last-child {
                 padding-block-end: 0;
