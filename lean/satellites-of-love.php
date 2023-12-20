@@ -294,6 +294,7 @@
         <main class="content">
                 <h1>Satellites of Love</h1>
                 <p>We are a wine making collective which creates organic, natural wines <span class="hidden">in Bern, Leuk, Ayent, La Neuveville and Zürich</span> from Pinot Noir grapes of our vineyards in the Swiss Alps — Brentjong 📡 (950m), Leuk (Valais).</p>
+                <p>To enrich and make everything happen we collaborate with our fellow friends in Bern, Leuk, Ayent, Ollon, La Neuveville and Zürich.</p>
                 <p>
                         <a title="Brentjong dot Space" href="/">Brentjong.space</a> — a growing permaculture space curated by us
                 </p>
