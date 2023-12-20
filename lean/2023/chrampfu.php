@@ -101,7 +101,7 @@
         }
         @media (min-width: 1441px) {
                 .content {
-                        padding-block-start: 13vw;
+                        padding-block-start: 5vw;
                 }
         }
         img {

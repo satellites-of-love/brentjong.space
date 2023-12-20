@@ -100,12 +100,20 @@
         }
         @media (min-width: 1441px) {
                 .content {
-                        padding-block-start: 13vw;
+                        padding-block-start: 5vw;
                 }
         }
         img {
                 border-style: none;
+                width: 100%;
+                padding-bottom: 2em;
         }
+        @media (min-width: 700px) {
+                img {
+                        padding-bottom: 5vw;
+                }  
+        }
+
         p, ul, h2, h3  {
                 font-size: 2em;
                 line-height: 130%;
@@ -328,6 +336,7 @@
         <main class="content">
                 <h2>Limited edition of 250</h2>
                 <h1>Sixpack of Love<br/>Subskription 🍾</h1>
+                <img src="/imgs/sixack.gif"/>
                 <p>Im Herbst 2022 erntet Satellites of Love Association Pinot Noir Trauben 🍇 in Brentjong und bringt sie nach La Neuveville zu Fabien Henriot, in Leuk zu Vin d'oeuvre, nach Bern zu Bruno Bucher, in Ayent zu Chèrouche, nach Zürich zur Domaine Baby Angel und ins Bahnhöfli Ostermundigen zu Satellites of Love Association.</p>
                 <p>Et voilà: Vanessa Atalanta, Funkloch, Ciervo, Balsam, Pinot D'angio, Oh le lux!<br>
                 Sechs wild vergorene Pinot Noir Interpretationen — mal ungestüm, mal elegant, mal Bubbles, mal rot, mal rosé. It is what it is!</p>
