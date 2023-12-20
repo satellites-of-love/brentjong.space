@@ -3,7 +3,6 @@
 <head>
         <link href="https://fonts.googleapis.com/css?family=Droid+Sans&display=swap"/>
         <title>Satellites of Love Sixpack Subskription 2022 — Limited edition of 250 sixpacks</title>
-        <meta name="robots" content="noindex">
         <meta name="view-transition" content="same-origin">
         <meta name="description" content="Sixpack of Love Subskription 🍾 2022 — Limited edition of 250 sixpacks">
         <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
