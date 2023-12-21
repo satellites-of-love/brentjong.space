@@ -125,6 +125,7 @@
                 aspect-ratio: auto 1000 / 667;
                 padding-bottom: 2em;
         }
+        picture { aspect-ratio: auto 1000 / 667; }
 
         @media (min-width: 700px) {
                 img {
@@ -368,13 +369,10 @@
                                 <h1>Sixpack of Love<br/>Subskription 🍾</h1>
                         </hgroup>
                         <picture>
-                                <!--<source srcset="/imgs/sixpack-small.avif" />
-                                <img src="/imgs/sixpack-small.jpg" alt="Sixack of Love Karton mit 6 Weinflaschen" />-->
-
                                 <source srcset="/imgs/sixpack.avif" type="image/avif" media="(min-width: 1620px)" width="1620px" />
                                 <source srcset="/imgs/sixpack.jpg" media="(min-width: 1620px)" width="1620px" />
                                 <source srcset="/imgs/sixpack-small.avif" type="image/avif" />
-                                <img src="/imgs/sixpack-small.jpg" alt="Sixack of Love Karton mit 6 Weinflaschen" />
+                                <img src="/imgs/sixpack-small.jpg" alt="Sixack of Love Karton mit 6 Weinflaschen" width="1000" />
                         </picture>
                         </picture>
 
