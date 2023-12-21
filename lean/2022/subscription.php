@@ -404,6 +404,7 @@
                                 <h1>Sixpack of Love <span class="bottle">👾</span></h1>
                         </hgroup>
                         <picture>
+                                <source srcset="/imgs/sixpack.avif" type="image/avif" media="(min-width: 2561px)" width="2000px" />
                                 <source srcset="/imgs/sixpack.avif" type="image/avif" media="(min-width: 1681px)" width="1520px" />
                                 <source srcset="/imgs/sixpack.jpg" media="(min-width: 1681px)" width="1520px" />
                                 <source srcset="/imgs/sixpack-small.avif" type="image/avif" />
