@@ -2,9 +2,9 @@
 <html lang="de-CH">
 <head>
         <link href="https://fonts.googleapis.com/css?family=Droid+Sans&display=swap"/>
-        <title>Satellites of Love Sixpack Subskription 2022 — Limited outer space edition of 250 sixpacks</title>
+        <title>Satellites of Love Sixpack 👾 2022 — Limited outer space edition of 250 sixpacks</title>
         <meta name="view-transition" content="same-origin">
-        <meta name="description" content="Sixpack of Love Subskription 🍾 2022 — Limited outer space edition of 250 sixpacks">
+        <meta name="description" content="Sixpack of Love 👾 2022 — Limited outer space edition of 250 sixpacks">
         <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
         <meta name="viewport" content="width=device-width">
         <meta name="geo.region" content="CH-BE" />
@@ -16,7 +16,7 @@
         <meta name="geo.position" content="46.317660;7.652257" />
         <meta name="ICBM" content="46.317660, 7.652257" />
         <meta property="og:site_name" content="brentjong.space">
-        <meta property="og:title" content="Sixpack of Love Subskription 🍾 2022 — Limited outer space edition of 250 sixpacks" />
+        <meta property="og:title" content="Sixpack of Love 👾 2022 — Limited outer space edition of 250 sixpacks" />
         <meta property="og:description" content="Order your limited outer space edition sixpack and support Satellites of Love." />
         <meta property="og:image" itemprop="image" content="https://brentjong.space/apple-touch-icon.png">
         <meta property="og:type" content="website" />
@@ -126,7 +126,7 @@
                         }
                 }
         }
-        @media (min-width: 1620px) {
+        @media (min-width: 1681px) {
                 .subscription-header hgroup {
                         top: -2.5vw;
                         right: -4.5vw;
@@ -137,7 +137,6 @@
                 aspect-ratio: auto 1000 / 667;
                 z-index: 1;
         }
-        picture { margin-block-end: 2em; }
         img.sixpack {
                 transition: filter 1.1s ease-out;
                 /* no transitions if user prefers-reduced-motion */
@@ -160,22 +159,22 @@
                         filter: hue-rotate(-273deg) invert(100%) brightness(61%);
                 }
         }
+
         picture { 
+                margin-inline-start: -3em;
+                margin-inline-end: -3em;
+                margin-block-end: 3em;
                 display: inline-flex;
         }
 
-        @media (min-width: 700px) {
-                picture {
-                        margin-block-end: 3vw;
-                }  
-        }
         @media (min-width: 1020px) {
                 picture {
                         border: var(--brentjong-space--border--style--thickness) var(--brentjong-space--border--style--style) var(--brentjong-space--border--style--color);
                         margin-inline-start: -5vw;
+                        margin-inline-end: inherit;
                 }  
         }
-        @media (min-width: 1620px) {
+        @media (min-width: 1681px) {
                 picture {
                         margin-inline-start: -7vw;   
                 }  
@@ -402,11 +401,11 @@
                 <div class="subscription-header">
                         <hgroup>
                                 <h2>Limited outer space edition of 250</h2>
-                                <h1>Sixpack of Love<br/>Subskription <span class="bottle">👾</span></h1>
+                                <h1>Sixpack of Love <span class="bottle">👾</span></h1>
                         </hgroup>
                         <picture>
-                                <source srcset="/imgs/sixpack.avif" type="image/avif" media="(min-width: 1620px)" width="1480px" />
-                                <source srcset="/imgs/sixpack.jpg" media="(min-width: 1620px)" width="1480px" />
+                                <source srcset="/imgs/sixpack.avif" type="image/avif" media="(min-width: 1681px)" width="1520px" />
+                                <source srcset="/imgs/sixpack.jpg" media="(min-width: 1681px)" width="1520px" />
                                 <source srcset="/imgs/sixpack-small.avif" type="image/avif" />
                                 <img class="sixpack" tabindex="0" src="/imgs/sixpack-small.jpg" alt="Sixack of Love Karton mit 6 Weinflaschen" width="1000" />
                         </picture>
