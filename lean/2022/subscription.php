@@ -2,9 +2,9 @@
 <html lang="de-CH">
 <head>
         <link href="https://fonts.googleapis.com/css?family=Droid+Sans&display=swap"/>
-        <title>Satellites of Love Sixpack Subskription 2022 — Limited edition of 250 sixpacks</title>
+        <title>Satellites of Love Sixpack Subskription 2022 — Limited outer space edition of 250 sixpacks</title>
         <meta name="view-transition" content="same-origin">
-        <meta name="description" content="Sixpack of Love Subskription 🍾 2022 — Limited edition of 250 sixpacks">
+        <meta name="description" content="Sixpack of Love Subskription 🍾 2022 — Limited outer space edition of 250 sixpacks">
         <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
         <meta name="viewport" content="width=device-width">
         <meta name="geo.region" content="CH-BE" />
@@ -16,12 +16,12 @@
         <meta name="geo.position" content="46.317660;7.652257" />
         <meta name="ICBM" content="46.317660, 7.652257" />
         <meta property="og:site_name" content="brentjong.space">
-        <meta property="og:title" content="Sixpack of Love Subskription 🍾 2022 — Limited edition of 250 sixpacks" />
-        <meta property="og:description" content="brentjong.space is a permaculture garden/space curated by Satellites of Love Association and is looking for friendly, open-minded people who want to participate in the vineyard. Join us :)" />
+        <meta property="og:title" content="Sixpack of Love Subskription 🍾 2022 — Limited outer space edition of 250 sixpacks" />
+        <meta property="og:description" content="Order your limited outer space edition sixpack and support Satellites of Love." />
         <meta property="og:image" itemprop="image" content="https://brentjong.space/apple-touch-icon.png">
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="de_CH" />
-        <meta name="theme-color" content="#17ff2142"/>
+        <meta name="theme-color" content="#ec0dad42"/>
         <link rel="icon" type="image/x-icon" href="/favicon.ico">
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -111,6 +111,16 @@
                         position: absolute;
                         top: -3vw;
                         right: -3.5vw;
+                        z-index: 3;
+
+                        background-color: var(--brentjong-space--color--base);
+                        padding: 1em;
+                        border: 3px dashed black;
+
+                        h1 { 
+                                padding-block-end: 0; 
+                                /* .bottle { display: none; } */
+                        }
                 }
         }
         @media (min-width: 1620px) {
@@ -120,22 +130,51 @@
                 }
         }
         img {
-                border-style: none;
                 max-width: 100%;
                 aspect-ratio: auto 1000 / 667;
-                padding-bottom: 2em;
+                margin-block-end: 2em;
+                z-index: 1;
+        }
+        img.sixpack {
+                transition: filter 1.1s ease-out;
+                /* no transitions if user prefers-reduced-motion */
+                @media (prefers-reduced-motion) {
+                        transition-property: none;
+                }
+                &:is(:hover, :focus) {
+                        cursor: pointer;
+                        transition: filter 0.35s ease-in;
+                        /* no transitions if user prefers-reduced-motion */
+                        @media (prefers-reduced-motion) {
+                                transition-property: none;
+                        }
+                }
+        }
+        img.sixpack:not(.original) {
+                filter: hue-rotate(81deg) invert(100%) brightness(31%) contrast(125%);
+                
+                &:is(:hover, :focus) {
+                        filter: hue-rotate(-273deg) invert(100%) brightness(61%);
+                }
         }
         picture { aspect-ratio: auto 1000 / 667; }
 
         @media (min-width: 700px) {
                 img {
-                        padding-bottom: 3vw;
+                        margin-block-end: 3vw;
                 }  
         }
         @media (min-width: 1020px) {
                 img {
                         margin-inline-start: -5vw;
-                }  
+                        border: 3px dashed black;
+
+                        &:is(:hover, :focus) {
+                                border: 3px dashed black;
+                        }
+                }
+
+                
         }
         @media (min-width: 1620px) {
                 img {
@@ -167,7 +206,7 @@
         }
         h1, h2, h3, h4 {
                 padding-block-end: 0.5em;
-                font-weight: normal;
+                font-weight: bold;
                 line-height: 120%;
                 hyphens: auto;
                 -webkit-hyphens: auto;
@@ -176,10 +215,8 @@
                 font-size: 3em;
                 word-break: break-word;
         }
+        h2 { font-size: 1.33em; }
         @media (min-width: 500px) {
-                /* h1 {
-                        font-size: 4em;
-                } */
                 h1 .force-break {
                         display: block;
                 }
@@ -365,15 +402,14 @@
         <main class="content">
                 <div class="subscription-header">
                         <hgroup>
-                                <h2>Limited edition of 250</h2>
-                                <h1>Sixpack of Love<br/>Subskription 🍾</h1>
+                                <h2>Limited outer space edition of 250</h2>
+                                <h1>Sixpack of Love<br/>Subskription <span class="bottle">👾</span></h1>
                         </hgroup>
                         <picture>
                                 <source srcset="/imgs/sixpack.avif" type="image/avif" media="(min-width: 1620px)" width="1620px" />
                                 <source srcset="/imgs/sixpack.jpg" media="(min-width: 1620px)" width="1620px" />
                                 <source srcset="/imgs/sixpack-small.avif" type="image/avif" />
-                                <img src="/imgs/sixpack-small.jpg" alt="Sixack of Love Karton mit 6 Weinflaschen" width="1000" />
-                        </picture>
+                                <img class="sixpack" tabindex="1" src="/imgs/sixpack-small.jpg" alt="Sixack of Love Karton mit 6 Weinflaschen" width="1000" />
                         </picture>
 
                 </div>
@@ -407,5 +443,19 @@
                         <p class="credits"><span>Made with ❤️‍🔥 &nbsp;by&nbsp;</span><a href="https://yokai.ch">Yokai</a></p>
                 </footer>
         </main>
+        <script type="text/javascript">
+                const imgs = document.querySelectorAll('img');
+
+                imgs.forEach(img => {
+                        img.onclick = () => img.classList.toggle('original');
+                        img.ondblclick = () => img.classList.toggle('original');
+
+                        img.addEventListener('keypress', function (e) {
+                                if (e.key === 'Enter') {
+                                        img.classList.toggle('original');
+                                }
+                        });
+                });
+        </script>
 </body>
 </html>
