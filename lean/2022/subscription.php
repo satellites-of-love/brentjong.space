@@ -69,7 +69,7 @@
                 padding: 0;
         }
         body {
-                --brentjong-space--color--base: #17ff2142;
+                --brentjong-space--color--base: #fff;
                 --brentjong-space--color--highlighted: #ec0dad42;
                 --brentjong-space--color--action: #ff4538;
                 --brentjong-space--layout--padding: 2em;
@@ -103,14 +103,41 @@
                         padding-block-start: 5vw;
                 }
         }
+
+        .subscription-header {position: relative;}
+
+        @media (min-width: 1020px) {
+                .subscription-header hgroup {
+                        position: absolute;
+                        top: -3vw;
+                        right: -3.5vw;
+                }
+        }
+        @media (min-width: 1620px) {
+                .subscription-header hgroup {
+                        top: -2.5vw;
+                        right: 0;
+                }
+        }
         img {
                 border-style: none;
                 width: 100%;
                 padding-bottom: 2em;
         }
+
         @media (min-width: 700px) {
                 img {
-                        padding-bottom: 5vw;
+                        padding-bottom: 3vw;
+                }  
+        }
+        @media (min-width: 1020px) {
+                img {
+                        margin-inline-start: -5vw;
+                }  
+        }
+        @media (min-width: 1620px) {
+                img {
+                        margin-inline-start: -7vw;   
                 }  
         }
 
@@ -148,9 +175,9 @@
                 word-break: break-word;
         }
         @media (min-width: 500px) {
-                h1 {
+                /* h1 {
                         font-size: 4em;
-                }
+                } */
                 h1 .force-break {
                         display: block;
                 }
@@ -334,9 +361,23 @@
 </head>
 <body>
         <main class="content">
-                <h2>Limited edition of 250</h2>
-                <h1>Sixpack of Love<br/>Subskription 🍾</h1>
-                <!-- <img src="/imgs/sixack.gif"/> -->
+                <div class="subscription-header">
+                        <hgroup>
+                                <h2>Limited edition of 250</h2>
+                                <h1>Sixpack of Love<br/>Subskription 🍾</h1>
+                        </hgroup>
+                        <picture>
+                                <!--<source srcset="/imgs/sixpack-small.avif" />
+                                <img src="/imgs/sixpack-small.jpg" alt="Sixack of Love Karton mit 6 Weinflaschen" />-->
+
+                                <source srcset="/imgs/sixpack.avif" type="image/avif" media="(min-width: 1620px)" width="1200px" />
+                                <source srcset="/imgs/sixpack.jpg" media="(min-width: 1620px)" width="1200px" />
+                                <source srcset="/imgs/sixpack-small.avif" type="image/avif" />
+                                <img src="/imgs/sixpack-small.jpg" alt="Sixack of Love Karton mit 6 Weinflaschen" />
+                        </picture>
+                        </picture>
+
+                </div>
                 <p>Im Herbst 2022 erntet Satellites of Love Association Pinot Noir Trauben 🍇 in Brentjong und bringt sie nach La Neuveville zu Fabien Henriot, in Leuk zu Vin d'oeuvre, nach Bern zu Bruno Bucher, in Ayent zu Chèrouche, nach Zürich zur Domaine Baby Angel und ins Bahnhöfli Ostermundigen zu Satellites of Love Association.</p>
                 <p>Et voilà: Vanessa Atalanta, Funkloch, Ciervo, Balsam, Pinot D'angio, Oh le lux!<br>
                 Sechs wild vergorene Pinot Noir Interpretationen — mal ungestüm, mal elegant, mal Bubbles, mal rot, mal rosé. It is what it is!</p>
