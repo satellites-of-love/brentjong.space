@@ -409,7 +409,7 @@
                                 <source srcset="/imgs/sixpack.avif" type="image/avif" media="(min-width: 1620px)" width="1620px" />
                                 <source srcset="/imgs/sixpack.jpg" media="(min-width: 1620px)" width="1620px" />
                                 <source srcset="/imgs/sixpack-small.avif" type="image/avif" />
-                                <img class="sixpack" tabindex="1" src="/imgs/sixpack-small.jpg" alt="Sixack of Love Karton mit 6 Weinflaschen" width="1000" />
+                                <img class="sixpack" tabindex="0" src="/imgs/sixpack-small.jpg" alt="Sixack of Love Karton mit 6 Weinflaschen" width="1000" />
                         </picture>
 
                 </div>
