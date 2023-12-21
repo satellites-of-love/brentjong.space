@@ -121,7 +121,8 @@
         }
         img {
                 border-style: none;
-                width: 100%;
+                max-width: 100%;
+                aspect-ratio: auto 1000 / 667;
                 padding-bottom: 2em;
         }
 
@@ -370,8 +371,8 @@
                                 <!--<source srcset="/imgs/sixpack-small.avif" />
                                 <img src="/imgs/sixpack-small.jpg" alt="Sixack of Love Karton mit 6 Weinflaschen" />-->
 
-                                <source srcset="/imgs/sixpack.avif" type="image/avif" media="(min-width: 1620px)" width="1200px" />
-                                <source srcset="/imgs/sixpack.jpg" media="(min-width: 1620px)" width="1200px" />
+                                <source srcset="/imgs/sixpack.avif" type="image/avif" media="(min-width: 1620px)" width="1620px" />
+                                <source srcset="/imgs/sixpack.jpg" media="(min-width: 1620px)" width="1620px" />
                                 <source srcset="/imgs/sixpack-small.avif" type="image/avif" />
                                 <img src="/imgs/sixpack-small.jpg" alt="Sixack of Love Karton mit 6 Weinflaschen" />
                         </picture>
