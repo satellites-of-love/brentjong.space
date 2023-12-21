@@ -110,7 +110,7 @@
                 .subscription-header hgroup {
                         position: absolute;
                         top: -3vw;
-                        right: -3.5vw;
+                        right: -3vw;
                         z-index: 3;
 
                         background-color: var(--brentjong-space--color--base);
@@ -126,15 +126,15 @@
         @media (min-width: 1620px) {
                 .subscription-header hgroup {
                         top: -2.5vw;
-                        right: 0;
+                        right: -4.5vw;
                 }
         }
         img {
                 max-width: 100%;
                 aspect-ratio: auto 1000 / 667;
-                margin-block-end: 2em;
                 z-index: 1;
         }
+        picture { margin-block-end: 2em; }
         img.sixpack {
                 transition: filter 1.1s ease-out;
                 /* no transitions if user prefers-reduced-motion */
@@ -157,27 +157,23 @@
                         filter: hue-rotate(-273deg) invert(100%) brightness(61%);
                 }
         }
-        picture { aspect-ratio: auto 1000 / 667; }
+        picture { 
+                display: inline-flex;
+        }
 
         @media (min-width: 700px) {
-                img {
+                picture {
                         margin-block-end: 3vw;
                 }  
         }
         @media (min-width: 1020px) {
-                img {
-                        margin-inline-start: -5vw;
+                picture {
                         border: 3px dashed black;
-
-                        &:is(:hover, :focus) {
-                                border: 3px dashed black;
-                        }
-                }
-
-                
+                        margin-inline-start: -5vw;
+                }  
         }
         @media (min-width: 1620px) {
-                img {
+                picture {
                         margin-inline-start: -7vw;   
                 }  
         }
@@ -406,8 +402,8 @@
                                 <h1>Sixpack of Love<br/>Subskription <span class="bottle">👾</span></h1>
                         </hgroup>
                         <picture>
-                                <source srcset="/imgs/sixpack.avif" type="image/avif" media="(min-width: 1620px)" width="1620px" />
-                                <source srcset="/imgs/sixpack.jpg" media="(min-width: 1620px)" width="1620px" />
+                                <source srcset="/imgs/sixpack.avif" type="image/avif" media="(min-width: 1620px)" width="1480px" />
+                                <source srcset="/imgs/sixpack.jpg" media="(min-width: 1620px)" width="1480px" />
                                 <source srcset="/imgs/sixpack-small.avif" type="image/avif" />
                                 <img class="sixpack" tabindex="0" src="/imgs/sixpack-small.jpg" alt="Sixack of Love Karton mit 6 Weinflaschen" width="1000" />
                         </picture>
