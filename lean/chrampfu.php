@@ -116,7 +116,7 @@
         }
         h1, h2, h3, h4 {
                 padding-block-end: 0.5em;
-                font-weight: normal;
+                font-weight: bold;
                 line-height: 120%;
                 hyphens: auto;
                 -webkit-hyphens: auto;
