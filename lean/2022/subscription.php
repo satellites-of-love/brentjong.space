@@ -74,6 +74,9 @@
                 --brentjong-space--color--action: #ff4538;
                 --brentjong-space--layout--padding: 2em;
                 --brentjong-space--layout--breakpoint--s: 700px;
+                --brentjong-space--border--style--thickness: 5px;
+                --brentjong-space--border--style--style: dashed;
+                --brentjong-space--border--style--color: black;
 
                 font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
                 color: #000;
@@ -115,7 +118,7 @@
 
                         background-color: var(--brentjong-space--color--base);
                         padding: 1em;
-                        border: 3px dashed black;
+                        border: var(--brentjong-space--border--style--thickness) var(--brentjong-space--border--style--style) var(--brentjong-space--border--style--color);
 
                         h1 { 
                                 padding-block-end: 0; 
@@ -168,7 +171,7 @@
         }
         @media (min-width: 1020px) {
                 picture {
-                        border: 3px dashed black;
+                        border: var(--brentjong-space--border--style--thickness) var(--brentjong-space--border--style--style) var(--brentjong-space--border--style--color);
                         margin-inline-start: -5vw;
                 }  
         }
