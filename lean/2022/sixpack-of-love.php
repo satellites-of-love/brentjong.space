@@ -410,9 +410,6 @@
                                 <source srcset="/imgs/sixpack-small.avif" type="image/avif" />
                                 <img class="sixpack" tabindex="0" src="/imgs/sixpack-small.jpg" alt="Sixpack of Love Karton mit 6 Weinflaschen" width="1000" />
                         </picture>
-
-                        <!-- https://youtu.be/9OdxGR5EyzA -->
-
                 </div>
                 <p>Im Herbst 2022 erntet Satellites of Love Association Pinot Noir Trauben 🍇 in Brentjong und bringt sie nach La Neuveville zu Fabien Henriot, in Leuk zu Vin d'oeuvre, nach Bern zu Bruno Bucher, in Ayent zu Chèrouche, nach Zürich zur Domaine Baby Angel und ins Bahnhöfli Ostermundigen zu Satellites of Love Association.</p>
                 <p>Et voilà: Vanessa Atalanta, Funkloch, Ciervo, Balsam, Pinot D'angio, Oh le lux!<br>

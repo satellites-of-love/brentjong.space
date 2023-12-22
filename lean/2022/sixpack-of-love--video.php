@@ -27,6 +27,11 @@
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
         <link rel="manifest" href="/site.webmanifest">
+        
+        <!-- Include the CSS & JS.. (This could be direct from the package or bundled) -->
+        <link rel="stylesheet" href="../node_modules/lite-youtube-embed/src/lite-yt-embed.css" />
+        <script src="../node_modules/lite-youtube-embed/src/lite-yt-embed.js"></script>
+        
         <style type="text/css">
         
         @keyframes grow-xy {
@@ -107,10 +112,10 @@
                 }
         }
 
-        .subscription-header {position: relative;}
+        .sixpack-header {position: relative;}
 
         @media (min-width: 1020px) {
-                .subscription-header hgroup {
+                .sixpack-header hgroup {
                         position: absolute;
                         top: -3vw;
                         right: -3vw;
@@ -127,13 +132,19 @@
                 }
         }
         @media (min-width: 1681px) {
-                .subscription-header hgroup {
+                .sixpack-header hgroup {
                         top: -2.5vw;
                         right: -4.5vw;
                 }
         }
         img {
+                width: 100%;
                 max-width: 100%;
+        }
+        lite-youtube {
+                min-width: calc(100% + 6em);
+        }
+        img, lite-youtube {
                 aspect-ratio: auto 1000 / 667;
                 z-index: 1;
         }
@@ -160,7 +171,7 @@
                 }
         }
 
-        picture { 
+        picture, lite-youtube { 
                 margin-inline-start: -3em;
                 margin-inline-end: -3em;
                 margin-block-end: 3em;
@@ -168,17 +179,28 @@
         }
 
         @media (min-width: 1020px) {
-                picture {
+                picture, lite-youtube {
                         border: var(--brentjong-space--border--style--thickness) var(--brentjong-space--border--style--style) var(--brentjong-space--border--style--color);
                         margin-inline-start: -5vw;
                         margin-inline-end: inherit;
-                }  
+                }
+                lite-youtube {
+                        min-width: calc(100% + 5vw + 3em);
+                }
         }
         @media (min-width: 1681px) {
-                picture {
+                picture, lite-youtube {
                         margin-inline-start: -7vw;   
                 }  
+                lite-youtube {
+                        min-width: calc(100% + 14vw + 6em);
+                }
         }
+
+
+
+
+
 
         p, ul, h2, h3  {
                 font-size: 2em;
@@ -398,19 +420,19 @@
 </head>
 <body>
         <main class="content">
-                <div class="subscription-header">
+                <div class="sixpack-header">
                         <hgroup>
                                 <h2>Limited outer space edition of 250</h2>
                                 <h1>Sixpack of Love <span class="bottle">👾</span></h1>
                         </hgroup>
-                        <picture>
+                        <!--<picture>
                                 <source srcset="/imgs/sixpack.avif" type="image/avif" media="(min-width: 2561px)" width="2000px" />
                                 <source srcset="/imgs/sixpack.avif" type="image/avif" media="(min-width: 1681px)" width="1520px" />
                                 <source srcset="/imgs/sixpack.jpg" media="(min-width: 1681px)" width="1520px" />
                                 <source srcset="/imgs/sixpack-small.avif" type="image/avif" />
-                                <img class="sixpack" tabindex="0" src="/imgs/sixpack-small.jpg" alt="Sixack of Love Karton mit 6 Weinflaschen" width="1000" />
-                        </picture>
-
+                                <img class="sixpack" tabindex="0" src="/imgs/sixpack-small.jpg" alt="Sixpack of Love Karton mit 6 Weinflaschen" width="1000" />
+                        </picture>-->
+                        <lite-youtube videoid="9OdxGR5EyzA" style="background-image: url('/imgs/sixpack.avif');" params="controls=0"></lite-youtube>
                 </div>
                 <p>Im Herbst 2022 erntet Satellites of Love Association Pinot Noir Trauben 🍇 in Brentjong und bringt sie nach La Neuveville zu Fabien Henriot, in Leuk zu Vin d'oeuvre, nach Bern zu Bruno Bucher, in Ayent zu Chèrouche, nach Zürich zur Domaine Baby Angel und ins Bahnhöfli Ostermundigen zu Satellites of Love Association.</p>
                 <p>Et voilà: Vanessa Atalanta, Funkloch, Ciervo, Balsam, Pinot D'angio, Oh le lux!<br>
@@ -456,5 +478,6 @@
                         });
                 });
         </script>
+        
 </body>
 </html>
