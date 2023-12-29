@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
         <link href="https://fonts.googleapis.com/css?family=Droid+Sans&display=swap"/>
+        <link rel="canonical" href="http://brentjong.space/satellites-of-love"/>
         <title>Satellites of Love Association — a collective which curates a permaculture garden/space in Brentjong, Valais</title>
         <meta name="view-transition" content="same-origin">
         <meta name="description" content="Satellites of Love Association — a collective which curates a permaculture garden/space in Brentjong, Valais. We make organic alpine wines out of Pinot Noir grapes - Pétillant Naturel (Pet Nat), Blanc de Noir, Rosé, Piquette. No added sulfur dioxide, no additives at all and therefore vegan.">

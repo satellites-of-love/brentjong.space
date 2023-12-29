@@ -2,6 +2,8 @@
 <html lang="de-CH">
 <head>
         <link href="https://fonts.googleapis.com/css?family=Droid+Sans&display=swap"/>
+        <link rel="canonical" href="http://brentjong.space/2022/sixpack-of-love"/>
+        <link rel="canonical" href="http://brentjong.space/2022/subscription"/>
         <title>Satellites of Love Sixpack 👾 2022 — Limited outer space edition of 250 sixpacks</title>
         <meta name="view-transition" content="same-origin">
         <meta name="description" content="Sixpack of Love 👾 2022 — Limited outer space edition of 250 sixpacks">
