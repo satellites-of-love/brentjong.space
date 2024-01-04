@@ -16,22 +16,25 @@
     ],
     "require": {
         "composer/installers": "^2.0",
-        "drupal/core-composer-scaffold": "^10.1",
-        "drupal/core-project-message": "^10.1",
-        "drupal/core-recommended": "^10.1",
+        "drupal/core-composer-scaffold": "^10.0",
+        "drupal/core-project-message": "^10.0",
+        "drupal/core-recommended": "^10.0",
         "drupal/gin": "^3.0@rc",
         "drupal/gin_login": "^2.0",
         "drupal/gin_toolbar": "^1.0@rc",
         "drupal/metatag": "^2.0",
-        "drupal/pathauto": "^1.11",
-        "drupal/token": "^1.12",
-        "drupal/webform": "^6.2@beta",
-        "drush/drush": "^12.1"
+        "drupal/pathauto": "^1.12",
+        "drupal/token": "^1.13",
+        "drupal/webform": "^6.2",
+        "drush/drush": "^12.4"
+    },
+    "require-dev": {
+        "drupal/core-dev": "^10.0"
     },
     "conflict": {
         "drupal/drupal": "*"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
         "allow-plugins": {
