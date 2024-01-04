@@ -2,3 +2,10 @@ name: brentjong.space
 recipe: drupal10
 config:
   webroot: web
+  php: '8.2'
+  xdebug: true
+# services:
+#   appserver:
+#     xdebug: debug
+#     config:
+#       php: .lando/php.ini
