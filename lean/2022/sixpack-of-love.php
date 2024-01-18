@@ -30,13 +30,15 @@
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
         <link rel="manifest" href="/site.webmanifest">
         <link rel="stylesheet" href="/styles/styles.css" />
+        <link rel="stylesheet" href="../node_modules/lite-youtube-embed/src/lite-yt-embed.css" />
+        <script src="../node_modules/lite-youtube-embed/src/lite-yt-embed.js"></script>
 </head>
 <body>
         <main class="content">
                 <div class="sixpack-header">
                         <hgroup>
                                 <h2>Limited outer space edition of 250</h2>
-                                <h1>Sixpack of Love <span class="bottle">👾</span></h1>
+                                <h1>Sixpack of Love <span class="emoji">👾</span></h1>
                         </hgroup>
                         <picture>
                                 <source srcset="/imgs/sixpack.avif" type="image/avif" media="(min-width: 2561px)" width="2000px" />
@@ -49,6 +51,7 @@
                 <p>Im Herbst 2022 erntet Satellites of Love Association Pinot Noir Trauben 🍇 in Brentjong und bringt sie nach La Neuveville zu Fabien Henriot, in Leuk zu Vin d'oeuvre, nach Bern zu Bruno Bucher, in Ayent zu Chèrouche, nach Zürich zur Domaine Baby Angel und ins Bahnhöfli Ostermundigen zu Satellites of Love Association.</p>
                 <p>Et voilà: Vanessa Atalanta, Funkloch, Ciervo, Balsam, Pinot D'angio, Oh le lux!<br>
                 Sechs wild vergorene Pinot Noir Interpretationen — mal ungestüm, mal elegant, mal Bubbles, mal rot, mal rosé. It is what it is!</p>
+                <lite-youtube videoid="9OdxGR5EyzA" style="background-image: url('/imgs/sixpack.avif');" params="controls=0"></lite-youtube>
                 <p>Willst du dir eines der raren Sixpacks sichern, dann reserviere und bestelle dir jetzt deine Sixpack Variante 🍾</p>
                 <ul class="love-list love-list--package">
                     <li>Bestelle dir dein <a href="https://www.trallala-weine.ch/shop/typ/weinkiste/sixpack-of-love/" title="Bestelle dir dein Sixpack of Love im Trallala - CHF 168 pro Sixpack">Sixpack of Love</a> ❤️ im Trallala</li>
@@ -80,12 +83,12 @@
                 const imgs = document.querySelectorAll('img');
 
                 imgs.forEach(img => {
-                        img.onclick = () => img.classList.toggle('original');
-                        img.ondblclick = () => img.classList.toggle('original');
+                        img.onclick = () => img.classList.toggle('focused');
+                        img.ondblclick = () => img.classList.toggle('focused');
 
                         img.addEventListener('keypress', function (e) {
                                 if (e.key === 'Enter') {
-                                        img.classList.toggle('original');
+                                        img.classList.toggle('focused');
                                 }
                         });
                 });

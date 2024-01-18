@@ -39,7 +39,7 @@
                 <div class="sixpack-header">
                         <hgroup>
                                 <h2>Limited outer space edition of 250</h2>
-                                <h1>Sixpack of Love <span class="bottle">👾</span></h1>
+                                <h1>Sixpack of Love <span class="emoji">👾</span></h1>
                         </hgroup>
                         <!--<picture>
                                 <source srcset="/imgs/sixpack.avif" type="image/avif" media="(min-width: 2561px)" width="2000px" />
@@ -84,12 +84,12 @@
                 const imgs = document.querySelectorAll('img');
 
                 imgs.forEach(img => {
-                        img.onclick = () => img.classList.toggle('original');
-                        img.ondblclick = () => img.classList.toggle('original');
+                        img.onclick = () => img.classList.toggle('focused');
+                        img.ondblclick = () => img.classList.toggle('focused');
 
                         img.addEventListener('keypress', function (e) {
                                 if (e.key === 'Enter') {
-                                        img.classList.toggle('original');
+                                        img.classList.toggle('focused');
                                 }
                         });
                 });
