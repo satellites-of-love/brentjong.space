@@ -29,7 +29,7 @@
         <link rel="stylesheet" href="/styles/styles.css" />
 </head>
 <body>
-        <main class="content" style="view-transition-name: hero">
+        <main class="content">
                 <h1>We are not evil 😘 <span class="force-break">Our data protection and privacy policy</span></h1>
                 <p>While accessing our website we do not save your personal data. We do not use cookies and we do not save individual IP-addresses.</p>
                 <p>We use a Youtube mediaplayer to play audiovisual content. The usage of the Youtube play button can trigger the transfer of cookies and other data.</p>
