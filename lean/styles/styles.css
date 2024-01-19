@@ -117,6 +117,10 @@ body {
             padding-block-end: 0;
             /* .emoji { display: none; } */
         }
+        h2 {
+            padding-block-start: 0.5em;
+            padding-block-end: 0;
+        }
     }
 }
 
@@ -232,11 +236,6 @@ lite-youtube {
         min-width: calc(100% + 14vw + 6em);
     } */
 }
-
-
-
-
-
 
 p,
 ul,
