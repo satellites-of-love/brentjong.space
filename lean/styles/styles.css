@@ -445,12 +445,18 @@ a:hover {
     animation: rocket-launch 0.25s infinite 0.8s;
 }
 
-.credits {
+footer {
+    display: flex;
+    justify-content: space-between;
     padding-block-start: var(--brentjong-space--layout--padding);
 }
 
-.credits * {
-    font-size: 0.5em;
+.credits, .legal {
+    & a,
+    & span {
+        font-size: 1em;
+        font-weight: bold;
+    }
 }
 
 @media (prefers-reduced-motion) {
