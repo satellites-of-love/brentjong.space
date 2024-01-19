@@ -65,7 +65,8 @@ body {
     background-color: var(--brentjong-space--background--color);
 
     color: var(--brentjong-space--font--color);
-    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+    /* font-family: 'Droid Sans', "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1em;
     line-height: 100%;
     line-break: normal;

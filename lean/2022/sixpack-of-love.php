@@ -50,7 +50,7 @@
                 <p>Im Herbst 2022 erntet Satellites of Love Association Pinot Noir Trauben 🍇 in Brentjong und bringt sie nach La Neuveville zu Fabien Henriot, in Leuk zu Vin d'oeuvre, nach Bern zu Bruno Bucher, in Ayent zu Chèrouche, nach Zürich zur Domaine Baby Angel und ins Bahnhöfli Ostermundigen zu Satellites of Love Association.</p>
                 <p>Et voilà: Vanessa Atalanta, Funkloch, Ciervo, Balsam, Pinot D'angio, Oh le lux!<br>
                 Sechs wild vergorene Pinot Noir Interpretationen — mal ungestüm, mal elegant, mal Bubbles, mal rot, mal rosé. It is what it is!</p>
-                <lite-youtube videoid="9OdxGR5EyzA" style="background-image: url('/imgs/sixpack.avif');" params="controls=0"></lite-youtube>
+                <lite-youtube videoid="9OdxGR5EyzA" style="background-image: url('/imgs/sixpack-small.jpg'); background-image: image-set('/imgs/sixpack.avif' type('image/avif'), '/imgs/sixpack-small.jpg' type('image/jpeg'));" params="controls=0"></lite-youtube>
                 <p>Willst du dir eines der raren Sixpacks sichern, dann reserviere und bestelle dir jetzt deine Sixpack Variante 🍾</p>
                 <ul class="love-list love-list--package">
                     <li>Bestelle dir dein <a href="https://www.trallala-weine.ch/shop/typ/weinkiste/sixpack-of-love/" title="Bestelle dir dein Sixpack of Love im Trallala - CHF 168 pro Sixpack">Sixpack of Love</a> ❤️ im Trallala</li>
