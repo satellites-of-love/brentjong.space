@@ -145,8 +145,22 @@ body {
 
 img,
 lite-youtube {
-    aspect-ratio: auto 1000 / 667;
     z-index: 1;
+    aspect-ratio: auto 1000 / 667;
+    /* Fallback for browsers that don't support aspect-ratio */
+    @supports not (aspect-ratio: 16 / 9) {
+        &::before {
+          float: left;
+          padding-top: 66.66%;
+          content: "";
+        }
+    
+        &::after {
+          display: block;
+          content: "";
+          clear: both;
+        }
+    }
 }
 
 img.sixpack {
