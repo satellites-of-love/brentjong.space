@@ -259,7 +259,8 @@ p,
 ul,
 h2,
 h3,
-lite-youtube {
+lite-youtube,
+footer {
     font-size: 2em;
     line-height: 130%;
     max-width: 50ch;
@@ -454,7 +455,7 @@ footer {
 .credits, .legal {
     & a,
     & span {
-        font-size: 1em;
+        font-size: 0.5em;
         font-weight: bold;
     }
 }
