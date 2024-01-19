@@ -149,6 +149,22 @@ lite-youtube {
     aspect-ratio: auto 1000 / 667;
     height: 100%;
 }
+/* Fallback for browsers that don't support aspect-ratio */
+@supports not (aspect-ratio: 3 / 2) {
+    img::before, lite-youtube::before {
+        float: left;
+        padding-top: 66.66%;
+        content: "";
+    }
+
+    img::after, lite-youtube::after {
+        display: block;
+        content: "";
+        clear: both;
+    }
+}
+
+
 
 img.sixpack {
     transition: filter 1.1s ease-out;
