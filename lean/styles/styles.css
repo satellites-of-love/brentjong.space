@@ -114,11 +114,11 @@ body {
         padding: 1em;
         border: var(--brentjong-space--border--style--thickness) var(--brentjong-space--border--style--style) var(--brentjong-space--background--color);
 
-        h1 {
+        & h1 {
             padding-block-end: 0;
             /* .emoji { display: none; } */
         }
-        h2 {
+        & h2 {
             padding-block-start: 0.5em;
             padding-block-end: 0;
         }
