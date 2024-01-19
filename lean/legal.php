@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
         <!-- <link href="https://fonts.googleapis.com/css?family=Droid+Sans&display=swap"/> -->
-        <title>brentjong.space legal policy</title>
+        <title>brentjong.space legal policy. We are not evil 😘</title>
         <meta name="view-transition" content="same-origin">
         <meta name="description" content="We are not evil 😘 Our data protection and privacy policy.">
         <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
@@ -29,7 +29,7 @@
         <link rel="stylesheet" href="/styles/styles.css" />
 </head>
 <body>
-        <main class="content">
+        <main class="content" style="view-transition-name: hero">
                 <h1>We are not evil 😘 <span class="force-break">Our data protection and privacy policy</span></h1>
                 <p>While accessing our website we do not save your personal data. We do not use cookies and we do not save individual IP-addresses.</p>
                 <p>We use a Youtube mediaplayer to play audiovisual content. The usage of the Youtube play button can trigger the transfer of cookies and other data.</p>
