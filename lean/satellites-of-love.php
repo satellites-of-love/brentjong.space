@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <link href="https://fonts.googleapis.com/css?family=Droid+Sans&display=swap"/>
+        <!-- <link href="https://fonts.googleapis.com/css?family=Droid+Sans&display=swap"/> -->
         <link rel="canonical" href="http://brentjong.space/satellites-of-love"/>
         <title>Satellites of Love Association — a collective which curates a permaculture garden/space in Brentjong, Valais</title>
         <meta name="view-transition" content="same-origin">

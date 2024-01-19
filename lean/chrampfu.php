@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="de-CH">
 <head>
-        <link href="https://fonts.googleapis.com/css?family=Droid+Sans&display=swap"/>
+        <!-- <link href="https://fonts.googleapis.com/css?family=Droid+Sans&display=swap"/> -->
         <title>Chrampfu — help out in our permaculture garden/space, curated by Satellites of Love Association</title>
         <meta name="robots" content="noindex">
         <meta name="view-transition" content="same-origin">
