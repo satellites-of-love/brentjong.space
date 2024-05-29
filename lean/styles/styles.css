@@ -53,6 +53,7 @@ body {
     /* Default is dark mode */
     --brentjong-space--body--border--color: #000;
     --brentjong-space--color--highlighted: #ec0dad42;
+    --brentjong-space--color--background--highlighted: rgba(60,0,100,1);
     --brentjong-space--color--action: #ff4538;
     --brentjong-space--layout--padding: 2em;
     --brentjong-space--layout--breakpoint--s: 700px;
@@ -63,6 +64,8 @@ body {
     --brentjong-space--font--color: #fff;
     --brentjong-space--link--underline--color: linear-gradient(#fff, #fff);
 
+    --background-main-gradient: linear-gradient(315deg, var(--brentjong-space--background--color) 0%, var(--brentjong-space--background--color) 90%, var(--brentjong-space--color--background--highlighted) 100%);
+
     /* Swap colors for light mode */
     @media (prefers-color-scheme: light) {
         --brentjong-space--body--border--color: #fff;
@@ -71,10 +74,10 @@ body {
         --brentjong-space--link--underline--color: linear-gradient(#000, #000);
     }
 
-    background-color: var(--brentjong-space--background--color);
+    background: var(--background-main-gradient);
+    background-color: var(--background-main-gradient);
 
     color: var(--brentjong-space--font--color);
-    /* font-family: 'Droid Sans', "Helvetica Neue", Helvetica, Arial, sans-serif; */
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1em;
     line-height: 100%;
@@ -394,17 +397,7 @@ p.universe {
     text-decoration: wavy underline;
 }
 
-/* Link style v1 */
-/* a, a:visited, a:hover {
-        text-decoration: underline;
-        text-decoration-thickness: 0.2rem;
-        color: inherit;
-        text-shadow: 0 0 5px var(--brentjong-space--color--highlighted);
-}
-a:hover, a:focus {
-        color: var(--brentjong-space--color--action);
-} */
-/* Link style v2 */
+
 a,
 a:focus,
 a:hover,
@@ -521,6 +514,12 @@ footer {
     100% {}
 }
 
+@keyframes zoom-none {
+    0% {}
+
+    100% {}
+}
+
 @keyframes flip-horizontal {
     0% {
         transform: translate(0, 0) rotate(0deg);
@@ -581,19 +580,26 @@ footer {
     display: none;
 }
 
+
 .galaxy {
     position: fixed;
     top: 50%;
     left: 50%;
     height: 1px;
     width: 1px;
+    
     background-color: var(--brentjong-space--font--color);
     border-radius: 50%;
     box-shadow: -42vw -4vh 0px 0px var(--brentjong-space--font--color),25vw -41vh 0px 0px var(--brentjong-space--font--color),-20vw 49vh 0px 1px var(--brentjong-space--font--color),5vw 40vh 1px 1px var(--brentjong-space--font--color),29vw 19vh 1px 0px var(--brentjong-space--font--color),-44vw -13vh 0px 0px var(--brentjong-space--font--color),46vw 41vh 0px 1px var(--brentjong-space--font--color),-3vw -45vh 0px 1px var(--brentjong-space--font--color),47vw 35vh 1px 0px var(--brentjong-space--font--color),12vw -8vh 1px 0px var(--brentjong-space--font--color),-34vw 48vh 1px 1px var(--brentjong-space--font--color),32vw 26vh 1px 1px var(--brentjong-space--font--color),32vw -41vh 1px 1px var(--brentjong-space--font--color),0vw 37vh 1px 1px var(--brentjong-space--font--color),34vw -26vh 1px 0px var(--brentjong-space--font--color),-14vw -49vh 1px 0px var(--brentjong-space--font--color),-12vw 45vh 0px 1px var(--brentjong-space--font--color),-44vw -33vh 0px 1px var(--brentjong-space--font--color),-13vw 41vh 0px 0px var(--brentjong-space--font--color),-36vw -11vh 0px 1px var(--brentjong-space--font--color),-23vw -24vh 1px 0px var(--brentjong-space--font--color),-38vw -27vh 0px 1px var(--brentjong-space--font--color),16vw -19vh 0px 0px var(--brentjong-space--font--color),28vw 33vh 1px 0px var(--brentjong-space--font--color),-49vw -4vh 0px 0px var(--brentjong-space--font--color),16vw 32vh 0px 1px var(--brentjong-space--font--color),36vw -18vh 1px 0px var(--brentjong-space--font--color),-25vw -30vh 1px 0px var(--brentjong-space--font--color),-23vw 24vh 0px 1px var(--brentjong-space--font--color),-2vw -35vh 1px 1px var(--brentjong-space--font--color),-25vw 9vh 0px 0px var(--brentjong-space--font--color),-15vw -34vh 0px 0px var(--brentjong-space--font--color),-8vw -19vh 1px 0px var(--brentjong-space--font--color),-20vw -20vh 1px 1px var(--brentjong-space--font--color),42vw 50vh 0px 1px var(--brentjong-space--font--color),-32vw 10vh 1px 0px var(--brentjong-space--font--color),-23vw -17vh 0px 0px var(--brentjong-space--font--color),44vw 15vh 1px 0px var(--brentjong-space--font--color),-40vw 33vh 1px 1px var(--brentjong-space--font--color),-43vw 8vh 0px 0px var(--brentjong-space--font--color),-48vw -15vh 1px 1px var(--brentjong-space--font--color),-24vw 17vh 0px 0px var(--brentjong-space--font--color),-31vw 50vh 1px 0px var(--brentjong-space--font--color),36vw -38vh 0px 1px var(--brentjong-space--font--color),-7vw 48vh 0px 0px var(--brentjong-space--font--color),15vw -32vh 0px 0px var(--brentjong-space--font--color),29vw -41vh 0px 0px var(--brentjong-space--font--color),2vw 37vh 1px 0px var(--brentjong-space--font--color),7vw -40vh 1px 1px var(--brentjong-space--font--color),15vw 18vh 0px 0px var(--brentjong-space--font--color),25vw -13vh 1px 1px var(--brentjong-space--font--color),-46vw -12vh 1px 1px var(--brentjong-space--font--color),-18vw 22vh 0px 0px var(--brentjong-space--font--color),23vw -9vh 1px 0px var(--brentjong-space--font--color),50vw 12vh 0px 1px var(--brentjong-space--font--color),45vw 2vh 0px 0px var(--brentjong-space--font--color),14vw -48vh 1px 0px var(--brentjong-space--font--color),23vw 43vh 0px 1px var(--brentjong-space--font--color),-40vw 16vh 1px 1px var(--brentjong-space--font--color),20vw -31vh 0px 1px var(--brentjong-space--font--color),-17vw 44vh 1px 1px var(--brentjong-space--font--color),18vw -45vh 0px 0px var(--brentjong-space--font--color),33vw -6vh 0px 0px var(--brentjong-space--font--color),0vw 7vh 0px 1px var(--brentjong-space--font--color),-10vw -18vh 0px 1px var(--brentjong-space--font--color),-19vw 5vh 1px 0px var(--brentjong-space--font--color),1vw 42vh 0px 0px var(--brentjong-space--font--color),22vw 48vh 0px 1px var(--brentjong-space--font--color),39vw -8vh 1px 1px var(--brentjong-space--font--color),-6vw -42vh 1px 0px var(--brentjong-space--font--color),-47vw 34vh 0px 0px var(--brentjong-space--font--color),-46vw 19vh 0px 1px var(--brentjong-space--font--color),-12vw -32vh 0px 0px var(--brentjong-space--font--color),-45vw -38vh 0px 1px var(--brentjong-space--font--color),-28vw 18vh 1px 0px var(--brentjong-space--font--color),-38vw -46vh 1px 1px var(--brentjong-space--font--color),49vw -6vh 1px 1px var(--brentjong-space--font--color),-28vw 18vh 1px 1px var(--brentjong-space--font--color),10vw -24vh 0px 1px var(--brentjong-space--font--color),-5vw -11vh 1px 1px var(--brentjong-space--font--color),33vw -8vh 1px 0px var(--brentjong-space--font--color),-16vw 17vh 0px 0px var(--brentjong-space--font--color),18vw 27vh 0px 1px var(--brentjong-space--font--color),-8vw -10vh 1px 1px var(--brentjong-space--font--color);
-  
-  /* stars were too big with the layers above but left the code in case no one cares  -- as in, if noone's just that  one other loner who actually cares    */
-  
-  box-shadow: 24vw 9vh 1px 0px var(--brentjong-space--font--color),12vw -24vh 0px 1px var(--brentjong-space--font--color),-45vw -22vh 0px 0px var(--brentjong-space--font--color),-37vw -40vh 0px 1px var(--brentjong-space--font--color),29vw 19vh 0px 1px var(--brentjong-space--font--color),4vw -8vh 0px 1px var(--brentjong-space--font--color),-5vw 21vh 1px 1px var(--brentjong-space--font--color),-27vw 26vh 1px 1px var(--brentjong-space--font--color),-47vw -3vh 1px 1px var(--brentjong-space--font--color),-28vw -30vh 0px 1px var(--brentjong-space--font--color),-43vw -27vh 0px 1px var(--brentjong-space--font--color),4vw 22vh 1px 1px var(--brentjong-space--font--color),36vw 23vh 0px 0px var(--brentjong-space--font--color),-21vw 24vh 1px 1px var(--brentjong-space--font--color),-16vw 2vh 1px 0px var(--brentjong-space--font--color),-16vw -6vh 0px 0px var(--brentjong-space--font--color),5vw 26vh 0px 0px var(--brentjong-space--font--color),-34vw 41vh 0px 0px var(--brentjong-space--font--color),1vw 42vh 1px 1px var(--brentjong-space--font--color),11vw -13vh 1px 1px var(--brentjong-space--font--color),48vw -8vh 1px 0px var(--brentjong-space--font--color),22vw -15vh 0px 0px var(--brentjong-space--font--color),45vw 49vh 0px 0px var(--brentjong-space--font--color),43vw -27vh 1px 1px var(--brentjong-space--font--color),20vw -2vh 0px 0px var(--brentjong-space--font--color),8vw 22vh 0px 1px var(--brentjong-space--font--color),39vw 48vh 1px 1px var(--brentjong-space--font--color),-21vw -11vh 0px 1px var(--brentjong-space--font--color),-40vw 45vh 0px 1px var(--brentjong-space--font--color),11vw -30vh 1px 0px var(--brentjong-space--font--color),26vw 30vh 1px 0px var(--brentjong-space--font--color),45vw -29vh 0px 1px var(--brentjong-space--font--color),-2vw 18vh 0px 0px var(--brentjong-space--font--color),-29vw -45vh 1px 0px var(--brentjong-space--font--color),-7vw -27vh 1px 1px var(--brentjong-space--font--color),42vw 24vh 0px 0px var(--brentjong-space--font--color),45vw -48vh 1px 0px var(--brentjong-space--font--color),-36vw -18vh 0px 0px var(--brentjong-space--font--color),-44vw 13vh 0px 1px var(--brentjong-space--font--color),36vw 16vh 0px 1px var(--brentjong-space--font--color),40vw 24vh 0px 0px var(--brentjong-space--font--color),18vw 11vh 0px 0px var(--brentjong-space--font--color),-15vw -23vh 1px 0px var(--brentjong-space--font--color),-24vw 48vh 0px 1px var(--brentjong-space--font--color),27vw -45vh 1px 0px var(--brentjong-space--font--color),-2vw -24vh 0px 1px var(--brentjong-space--font--color),-15vw -28vh 0px 0px var(--brentjong-space--font--color),-43vw 13vh 1px 0px var(--brentjong-space--font--color),7vw 27vh 1px 0px var(--brentjong-space--font--color),47vw 5vh 0px 0px var(--brentjong-space--font--color),-45vw 15vh 1px 1px var(--brentjong-space--font--color),-5vw -28vh 0px 1px var(--brentjong-space--font--color),38vw 25vh 1px 1px var(--brentjong-space--font--color),-39vw -1vh 1px 0px var(--brentjong-space--font--color),5vw 0vh 1px 0px var(--brentjong-space--font--color),49vw 13vh 0px 0px var(--brentjong-space--font--color),48vw 10vh 0px 1px var(--brentjong-space--font--color),19vw -28vh 0px 0px var(--brentjong-space--font--color),4vw 7vh 0px 0px var(--brentjong-space--font--color),21vw 21vh 1px 1px var(--brentjong-space--font--color),-15vw -15vh 0px 1px var(--brentjong-space--font--color),-6vw -42vh 1px 0px var(--brentjong-space--font--color),-15vw 48vh 1px 1px var(--brentjong-space--font--color),-23vw 25vh 1px 1px var(--brentjong-space--font--color),-48vw 25vh 0px 1px var(--brentjong-space--font--color),-31vw -19vh 0px 1px var(--brentjong-space--font--color),4vw 37vh 1px 1px var(--brentjong-space--font--color),-43vw 28vh 0px 0px var(--brentjong-space--font--color),3vw -25vh 0px 1px var(--brentjong-space--font--color),-39vw 14vh 0px 1px var(--brentjong-space--font--color),-40vw 31vh 0px 1px var(--brentjong-space--font--color),35vw -36vh 1px 1px var(--brentjong-space--font--color),16vw 49vh 0px 0px var(--brentjong-space--font--color),6vw 39vh 0px 0px var(--brentjong-space--font--color),3vw -35vh 0px 1px var(--brentjong-space--font--color),-44vw -2vh 1px 0px var(--brentjong-space--font--color),-6vw 21vh 1px 0px var(--brentjong-space--font--color),48vw 9vh 1px 1px var(--brentjong-space--font--color),-43vw 30vh 1px 1px var(--brentjong-space--font--color),29vw -12vh 1px 1px var(--brentjong-space--font--color),-48vw 13vh 1px 0px var(--brentjong-space--font--color),-42vw 32vh 1px 1px var(--brentjong-space--font--color),34vw 15vh 1px 1px var(--brentjong-space--font--color),29vw -37vh 1px 1px var(--brentjong-space--font--color),28vw 2vh 0px 0px var(--brentjong-space--font--color);
-  animation: zoom 16s alternate infinite; 
+
+    /* stars were too big with the layers above but left the code in case no one cares  -- as in, if noone's just that  one other loner who actually cares    */
+    
+    box-shadow: 24vw 9vh 1px 0px var(--brentjong-space--font--color),12vw -24vh 0px 1px var(--brentjong-space--font--color),-45vw -22vh 0px 0px var(--brentjong-space--font--color),-37vw -40vh 0px 1px var(--brentjong-space--font--color),29vw 19vh 0px 1px var(--brentjong-space--font--color),4vw -8vh 0px 1px var(--brentjong-space--font--color),-5vw 21vh 1px 1px var(--brentjong-space--font--color),-27vw 26vh 1px 1px var(--brentjong-space--font--color),-47vw -3vh 1px 1px var(--brentjong-space--font--color),-28vw -30vh 0px 1px var(--brentjong-space--font--color),-43vw -27vh 0px 1px var(--brentjong-space--font--color),4vw 22vh 1px 1px var(--brentjong-space--font--color),36vw 23vh 0px 0px var(--brentjong-space--font--color),-21vw 24vh 1px 1px var(--brentjong-space--font--color),-16vw 2vh 1px 0px var(--brentjong-space--font--color),-16vw -6vh 0px 0px var(--brentjong-space--font--color),5vw 26vh 0px 0px var(--brentjong-space--font--color),-34vw 41vh 0px 0px var(--brentjong-space--font--color),1vw 42vh 1px 1px var(--brentjong-space--font--color),11vw -13vh 1px 1px var(--brentjong-space--font--color),48vw -8vh 1px 0px var(--brentjong-space--font--color),22vw -15vh 0px 0px var(--brentjong-space--font--color),45vw 49vh 0px 0px var(--brentjong-space--font--color),43vw -27vh 1px 1px var(--brentjong-space--font--color),20vw -2vh 0px 0px var(--brentjong-space--font--color),8vw 22vh 0px 1px var(--brentjong-space--font--color),39vw 48vh 1px 1px var(--brentjong-space--font--color),-21vw -11vh 0px 1px var(--brentjong-space--font--color),-40vw 45vh 0px 1px var(--brentjong-space--font--color),11vw -30vh 1px 0px var(--brentjong-space--font--color),26vw 30vh 1px 0px var(--brentjong-space--font--color),45vw -29vh 0px 1px var(--brentjong-space--font--color),-2vw 18vh 0px 0px var(--brentjong-space--font--color),-29vw -45vh 1px 0px var(--brentjong-space--font--color),-7vw -27vh 1px 1px var(--brentjong-space--font--color),42vw 24vh 0px 0px var(--brentjong-space--font--color),45vw -48vh 1px 0px var(--brentjong-space--font--color),-36vw -18vh 0px 0px var(--brentjong-space--font--color),-44vw 13vh 0px 1px var(--brentjong-space--font--color),36vw 16vh 0px 1px var(--brentjong-space--font--color),40vw 24vh 0px 0px var(--brentjong-space--font--color),18vw 11vh 0px 0px var(--brentjong-space--font--color),-15vw -23vh 1px 0px var(--brentjong-space--font--color),-24vw 48vh 0px 1px var(--brentjong-space--font--color),27vw -45vh 1px 0px var(--brentjong-space--font--color),-2vw -24vh 0px 1px var(--brentjong-space--font--color),-15vw -28vh 0px 0px var(--brentjong-space--font--color),-43vw 13vh 1px 0px var(--brentjong-space--font--color),7vw 27vh 1px 0px var(--brentjong-space--font--color),47vw 5vh 0px 0px var(--brentjong-space--font--color),-45vw 15vh 1px 1px var(--brentjong-space--font--color),-5vw -28vh 0px 1px var(--brentjong-space--font--color),38vw 25vh 1px 1px var(--brentjong-space--font--color),-39vw -1vh 1px 0px var(--brentjong-space--font--color),5vw 0vh 1px 0px var(--brentjong-space--font--color),49vw 13vh 0px 0px var(--brentjong-space--font--color),48vw 10vh 0px 1px var(--brentjong-space--font--color),19vw -28vh 0px 0px var(--brentjong-space--font--color),4vw 7vh 0px 0px var(--brentjong-space--font--color),21vw 21vh 1px 1px var(--brentjong-space--font--color),-15vw -15vh 0px 1px var(--brentjong-space--font--color),-6vw -42vh 1px 0px var(--brentjong-space--font--color),-15vw 48vh 1px 1px var(--brentjong-space--font--color),-23vw 25vh 1px 1px var(--brentjong-space--font--color),-48vw 25vh 0px 1px var(--brentjong-space--font--color),-31vw -19vh 0px 1px var(--brentjong-space--font--color),4vw 37vh 1px 1px var(--brentjong-space--font--color),-43vw 28vh 0px 0px var(--brentjong-space--font--color),3vw -25vh 0px 1px var(--brentjong-space--font--color),-39vw 14vh 0px 1px var(--brentjong-space--font--color),-40vw 31vh 0px 1px var(--brentjong-space--font--color),35vw -36vh 1px 1px var(--brentjong-space--font--color),16vw 49vh 0px 0px var(--brentjong-space--font--color),6vw 39vh 0px 0px var(--brentjong-space--font--color),3vw -35vh 0px 1px var(--brentjong-space--font--color),-44vw -2vh 1px 0px var(--brentjong-space--font--color),-6vw 21vh 1px 0px var(--brentjong-space--font--color),48vw 9vh 1px 1px var(--brentjong-space--font--color),-43vw 30vh 1px 1px var(--brentjong-space--font--color),29vw -12vh 1px 1px var(--brentjong-space--font--color),-48vw 13vh 1px 0px var(--brentjong-space--font--color),-42vw 32vh 1px 1px var(--brentjong-space--font--color),34vw 15vh 1px 1px var(--brentjong-space--font--color),29vw -37vh 1px 1px var(--brentjong-space--font--color),28vw 2vh 0px 0px var(--brentjong-space--font--color);
+    animation: zoom 16s alternate infinite; 
 }
 
+@media (prefers-reduced-motion) {
+    .galaxy {
+        animation: zoom-none 1s;
+    }
+}
