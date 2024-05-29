@@ -48,6 +48,7 @@
                         <div class="credits"><span>Made with ❤️‍🔥 &nbsp;by&nbsp;</span><a href="https://yokai.ch">Yokai</a></div>
                         <div class="legal"><a class="link" title="Satellites of Love Association" href="/satellites-of-love"><span class="link__base-station" role="img" aria-label="Satellite base station">📡</span> of <span role="img" aria-label="Love">❤️</span></a></div>
                 </footer>
+                <div class="galaxy" role="presentation"></div>
         </main>
 </body>
 </html>

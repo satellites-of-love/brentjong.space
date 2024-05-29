@@ -192,6 +192,7 @@
                         <div class="credits"><span>Made with ❤️‍🔥 &nbsp;by&nbsp;</span><a href="https://yokai.ch">Yokai</a></div>
                         <div class="legal"><a title="brentjong.space legal policy. We are not evil 😘" href="/legal">Legal</a></div>
                 </footer>
+                <div class="galaxy" role="presentation"></div>
         </main>
 </body>
 </html>
