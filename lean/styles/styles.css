@@ -53,7 +53,7 @@ body {
     /* Default is dark mode */
     --brentjong-space--body--border--color: #000;
     --brentjong-space--color--highlighted: #ec0dad42;
-    --brentjong-space--color--background--highlighted: rgba(60,0,100,1);
+    --brentjong-space--color--background--highlighted: #3c0064;
     --brentjong-space--color--action: #ff4538;
     --brentjong-space--layout--padding: 2em;
     --brentjong-space--layout--breakpoint--s: 700px;
