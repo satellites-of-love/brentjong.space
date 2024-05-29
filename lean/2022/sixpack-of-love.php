@@ -22,7 +22,7 @@
         <meta property="og:image" itemprop="image" content="https://brentjong.space/apple-touch-icon.png">
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="de_CH" />
-        <meta name="theme-color" content="#ec0dad42"/>
+        <meta name="theme-color" content="#3c0064"/>
         <link rel="icon" type="image/x-icon" href="/favicon.ico">
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
