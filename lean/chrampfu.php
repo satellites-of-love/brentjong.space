@@ -66,9 +66,15 @@
                                 </span>
                         </li>
                         <li>
-                                <a title="Doodle Formular Chram­pfär*(l)i Session Juni" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/aMEYkJOa">Chram­pfär*(l)i Juni</a>, 
+                                <a title="Doodle Formular Chram­pfär*(l)i Session Juni Part 2" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/aMEYkJOa">Chram­pfär*(l)i Juni</a>, 
                                 <span class="dates">
                                         <time datetime="2024-06-06" itemprop="startDate">6.</time>–<time datetime="2024-06-08" itemprop="endDate">8. Juni</time>
+                                </span>
+                        </li>
+                        <li>
+                                <a title="Doodle Formular Chram­pfär*(l)i Session Juni" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/bkOxVYrb">Chram­pfär*(l)i Juni Part 2</a>, 
+                                <span class="dates">
+                                        <time datetime="2024-06-18" itemprop="startDate">18.</time>–<time datetime="2024-06-19" itemprop="endDate">19. Juni</time>
                                 </span>
                         </li>
                         <li>
