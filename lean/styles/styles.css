@@ -397,6 +397,11 @@ p.universe {
     text-decoration: wavy underline;
 }
 
+.strike-through {
+    text-decoration: line-through;
+    text-decoration-style: double;
+}
+
 
 a,
 a:focus,

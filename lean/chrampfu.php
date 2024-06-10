@@ -55,14 +55,14 @@
                         </li>
                         <li>
                                 <a title="Doodle Formular Chram­pfär*(l)i Session Auffahrt" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/eX7jB4md">Chram­pfär*(l)i Auffahrt</a>, 
-                                <span class="dates">
+                                <span class="dates strike-through">
                                         <time datetime="2024-05-09" itemprop="startDate">9.</time>–<time datetime="2024-05-11" itemprop="endDate">11. Mai</time>
                                 </span>
                         </li>
                         <li>
                                 <a title="Doodle Formular Chram­pfär*(l)i Session Mai" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/dLYXp7De">Chram­pfär*(l)i Mai</a>, 
                                 <span class="dates">
-                                        <time datetime="2024-05-16" itemprop="startDate">16.</time>–<time datetime="2024-05-17" itemprop="endDate">17. Mai</time>
+                                        <time datetime="2024-05-16" itemprop="startDate">16.</time>–<time datetime="2024-05-17" itemprop="endDate">17. Mai</time> — Cancelled
                                 </span>
                         </li>
                         <li>
@@ -84,9 +84,7 @@
                                 </span>
                         </li>
                         <li>
-                                <span class="dates dates--not-fix">
-                                <time datetime="2024-09-01" itemprop="startDate">September</time> – <time datetime="2023-09-30" itemprop="endDate">2024</time>
-                                </span>, abhängig von der phenolischen Reife 🤞
+                                <span class="dates dates--not-fix"><time datetime="2024-09-01" itemprop="startDate">September</time> – <time datetime="2023-09-30" itemprop="endDate">2024</time></span>, abhängig von der phenolischen Reife 🤞
                         </li>                   
                 </ul>
                 <p>Bisch öi därbii? Ohne dich geht nach wie vor nichts. Hilf uns mit der Planung und trag dich für die <a title="Chrampfär*inne Sessions 2023" href="#chrampfu-sessions">Chrampfärli Sessions</a> ⇡ im Doodle ein. Merci boggu 💓</p>
