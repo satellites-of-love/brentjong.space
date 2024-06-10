@@ -74,7 +74,7 @@
                         <li>
                                 <a title="Doodle Formular Chram­pfär*(l)i Session Juli" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/dRM4p5qb">Chram­pfär*(l)i Juli</a>, 
                                 <span class="dates">
-                                        <time datetime="2024-07-04" itemprop="startDate">4.</time>–<time datetime="2024-07-06" itemprop="endDate">6. Juli</time>
+                                        <time datetime="2024-07-11" itemprop="startDate">11.</time>–<time datetime="2024-07-14" itemprop="endDate">14. Juli</time>
                                 </span>
                         </li>
                         <li>
