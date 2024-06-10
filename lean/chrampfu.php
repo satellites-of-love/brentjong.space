@@ -56,13 +56,13 @@
                         <li class="strike-through">
                                 <a title="Doodle Formular Chram­pfär*(l)i Session Auffahrt" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/eX7jB4md">Chram­pfär*(l)i Auffahrt</a>, 
                                 <span class="dates">
-                                        <time datetime="2024-05-09" itemprop="startDate">9.</time>–<time datetime="2024-05-11" itemprop="endDate">11. Mai</time>
+                                        <time datetime="2024-05-09" itemprop="startDate">9.</time>–<time datetime="2024-05-11" itemprop="endDate">11. Mai</time> — Cancelled
                                 </span>
                         </li>
                         <li>
                                 <a title="Doodle Formular Chram­pfär*(l)i Session Mai" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/dLYXp7De">Chram­pfär*(l)i Mai</a>, 
                                 <span class="dates">
-                                        <time datetime="2024-05-16" itemprop="startDate">16.</time>–<time datetime="2024-05-17" itemprop="endDate">17. Mai</time> — Cancelled
+                                        <time datetime="2024-05-16" itemprop="startDate">16.</time>–<time datetime="2024-05-17" itemprop="endDate">17. Mai</time>
                                 </span>
                         </li>
                         <li>
