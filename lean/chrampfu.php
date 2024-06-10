@@ -53,9 +53,9 @@
                                         <time datetime="2024-04-18" itemprop="startDate">18.</time>–<time datetime="2024-04-20" itemprop="endDate">20. April</time>
                                 </span>
                         </li>
-                        <li>
+                        <li class="strike-through">
                                 <a title="Doodle Formular Chram­pfär*(l)i Session Auffahrt" rel="noreferrer" target="_blank" href="https://doodle.com/meeting/participate/id/eX7jB4md">Chram­pfär*(l)i Auffahrt</a>, 
-                                <span class="dates strike-through">
+                                <span class="dates">
                                         <time datetime="2024-05-09" itemprop="startDate">9.</time>–<time datetime="2024-05-11" itemprop="endDate">11. Mai</time>
                                 </span>
                         </li>
