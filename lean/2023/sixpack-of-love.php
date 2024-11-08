@@ -48,15 +48,7 @@
                         </picture>
                 </div>
                 <ul class="love-list love-list--package">
-                    <li>Bestelle dir dein <a href="https://www.trallala-weine.ch/shop/typ/weinkiste/sixpack-of-love/" title="Bestelle dir dein Sixpack of Love im Trallala - CHF 168 pro Sixpack">Sixpack of Love</a> ❤️ im Trallala</li>
-                    <li>Ich möchte lieber ein <a href="https://www.trallala-weine.ch/shop/typ/weinkiste/sixpack-of-love-supreme/" title="Bestelle dir dein Sixpack of Love Supreme im Trallala und unterstütze das Projekt als Gönner*in - CHF 250 pro Sixpack">Sixpack of Love Supreme</a> ❤️‍🔥 und unterstütze das Projekt zusätzlich als Gönner*in</span>
-                        <ul>
-                            <li>dafür pflanzen 🧑‍🌾 Satellites of Love einen Strauch 🌱 / Wildobst 🌳 zur Er­hö­hung der Biodiversität Brentjongs</li>
-                            <li>du erhälst ein Poster 📓✧˖°. von Satellites of Love</li>
-                            <li>und wirst auf ein Apéro 🍷 eingeladen 🥂</li>
-                            <li>plus kriegst 1.5 Karma-Punkte 👾</li>
-                        </ul>
-                    </li>
+                    <li>Coming soon! Bestelle dir bald dein Sixpack of Love im <a href="https://konsum3000.lehmanns.xyz/products/sixpack-of-love-2023">Süpermarché</a>./li>
                 </ul>
                 <p>
                         <a title="Brentjong dot Space" href="/">Brentjong.space</a> — a growing permaculture space curated by
