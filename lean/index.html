@@ -31,11 +31,29 @@
 </head>
 <body>
         <main class="content">
-                <h1>Brentjong.space by <span class="force-break">Satellites of Love</span></h1>
+                <div class="sixpack-header">
+                        <hgroup>
+                                <h2>2023er Satellites family. Soon available at <a href="https://konsum3000.lehmanns.xyz">Süpermarché</a>!</h2>
+                                <h1>Satellites of Love <span class="emoji">👾</span></h1>
+                        </hgroup>
+                        <picture>
+                                <source srcset="/imgs/pyramide.jpg" type="image/jpg" media="(min-width: 2561px)" width="2000px" />
+                                <source srcset="/imgs/pyramide.jpg" type="image/jpg" media="(min-width: 1681px)" width="1520px" />
+                                <source srcset="/imgs/pyramide.jpg" media="(min-width: 1681px)" width="1520px" />
+                                <source srcset="/imgs/pyramide-small.jpg" type="image/jpg" />
+                                <img class="sixpack" tabindex="0" src="/imgs/pyramide-small.jpg" alt="2023 Satellites of Love wine family" width="1000" />
+                        </picture>
+                </div>
+
+
                 <p><a class="link" title="Satellites of Love Association" href="/satellites-of-love">We</a> create organic, natural wines from Pinot Noir grapes of our vineyards in the Swiss Alps — Brentjong 📡 (950m), Leuk (Valais).</p>
-                <p>⚡❤️⚡ Get your <em>Sixpack of Love</em> ⚡❤️⚡ Order now 👾 one of the two <a href="/2022/subscription" title="Subscribe and preorder your Sixpack of Love">limited sixpack variants</a>🍾.</p>
+
+                <p>⚡❤️⚡ Get your <em>Sixpack of Love 2023</em> ⚡❤️⚡ Order soon 👾 one of the <a href="/2023/subscription" title="Order your Sixpack of Love">limited sixpacks</a>🍾</p>
                 <p>
-                        We have been running a pop up bistro and bottle shop called <a href="https://lehmanns.xyz" title="Lehmanns – Bistro und Saftladen">Lehmanns</a> until the 6th of July 2024 with our friends from <a href="https://heftigcidre.ch/" title="Heftig Cidre">Heftig Cidre</a>.
+                        We also run a little shop called <a href="https://lehmanns.xyz/bistro" title="Lehmanns – Comestibles im Saftladen">Lehmanns – Comestibles im Saftladen</a> until the 31rd of December 2024 with our friends from <a href="https://heftigcidre.ch/" title="Heftig Cidre">Heftig Cidre</a> where we sell our wines but also some selected food from close by and some from further away :)
+                </p>
+                <p>
+                        Earlier this year we ran a pop up bistro and bottle shop called <a href="https://lehmanns.xyz/bistro" title="Lehmanns – Bistro und Saftladen">Lehmanns – Bistro und Saftladen</a> until the 6th of July 2024.
                 </p>
                 <p>
                         Brentjong.space — a growing permaculture space curated by
@@ -56,5 +74,19 @@
                 </footer>
                 <div class="galaxy" role="presentation"></div>
         </main>
+        <script type="text/javascript">
+                const imgs = document.querySelectorAll('img');
+
+                imgs.forEach(img => {
+                        img.onclick = () => img.classList.toggle('focused');
+                        img.ondblclick = () => img.classList.toggle('focused');
+
+                        img.addEventListener('keypress', function (e) {
+                                if (e.key === 'Enter') {
+                                        img.classList.toggle('focused');
+                                }
+                        });
+                });
+        </script>
 </body>
 </html>
