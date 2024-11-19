@@ -2,14 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://brentjong.space/</loc>
-    <lastmod>2023-12-21</lastmod>
+    <lastmod>2024-11-19</lastmod>
   </url>
   <url>
     <loc>https://brentjong.space/satellites-of-love</loc>
-    <lastmod>2023-12-21</lastmod>
+    <lastmod>2024-11-19</lastmod>
   </url>
   <url>
-    <loc>https://brentjong.space/2022/subscription</loc>
-    <lastmod>2023-12-21</lastmod>
+    <loc>https://brentjong.space/2022/sixpack-of-love</loc>
+    <lastmod>2024-11-19</lastmod>
+  </url>
+  <url>
+    <loc>https://brentjong.space/2023/sixpack-of-love</loc>
+    <lastmod>2024-11-19</lastmod>
+  </url>
+  <url>
+    <loc>https://brentjong.space/legal</loc>
+    <lastmod>2024-11-19</lastmod>
   </url>
 </urlset>

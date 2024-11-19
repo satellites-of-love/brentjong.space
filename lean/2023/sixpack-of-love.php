@@ -36,7 +36,7 @@
         <main class="content">
                 <div class="sixpack-header">
                         <hgroup>
-                                <h2>Limited outer space edition</h2>
+                                <h2>Limited outer space edition — 1/100</h2>
                                 <h1>Sixpack of Love <span class="emoji">👾</span></h1>
                         </hgroup>
                         <picture>
