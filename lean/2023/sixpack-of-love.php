@@ -48,7 +48,7 @@
                         </picture>
                 </div>
                 <ul class="love-list love-list--package">
-                    <li>Bestelle dir dein Sixpack of Love im <a href="https://konsum3000.lehmanns.xyz/products/sixpack-of-love-2023">Süpermarché</a>.</li>
+                    <li>Get your Sixpack of Love 2023 in our online <a href="https://konsum3000.lehmanns.xyz/products/sixpack-of-love-2023">Süpermarché</a> 👾 or grab some <a href="https://konsum3000.lehmanns.xyz/collections/satellites-of-love">rare, rather unique bottles</a> or stop by at our shop <a href="https://lehmanns.xyz">Lehmanns Saftladen</a> 😘</li>
                 </ul>
                 <p>
                         <a title="Brentjong dot Space" href="/">Brentjong.space</a> — a growing permaculture space curated by
