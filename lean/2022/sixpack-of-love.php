@@ -47,7 +47,7 @@
                                 <img class="sixpack" tabindex="0" src="/imgs/sixpack-small.jpg" alt="Sixpack of Love Karton mit 6 Weinflaschen" width="1000" />
                         </picture>
                 </div>
-                <p>SOLD OUT: Das 2022er Sixpack of Love ist ausverkauft. Hol dir eines der verbleibenden <a href="https://konsum3000.lehmanns.xyz/products/sixpack-of-love-2023">Sixpack of Love 2023</a></p>
+                <p>SOLD OUT: Das 2022er Sixpack of Love ist ausverkauft. Hol dir eines der verbleibenden <a href="https://konsum3000.lehmanns.xyz/products/sixpack-of-love-2023">Sixpack of Love 2023</a>.</p>
                 <p>Im Herbst 2022 erntet Satellites of Love Association Pinot Noir Trauben 🍇 in Brentjong und bringt sie nach La Neuveville zu Fabien Henriot, in Leuk zu Vin d'oeuvre, nach Bern zu Bruno Bucher, in Ayent zu Chèrouche, nach Zürich zur Domaine Baby Angel und ins Bahnhöfli Ostermundigen zu Satellites of Love Association.</p>
                 <p>Et voilà: Vanessa Atalanta, Funkloch, Ciervo, Balsam, Pinot D'angio, Oh le lux!<br>
                 Sechs wild vergorene Pinot Noir Interpretationen — mal ungestüm, mal elegant, mal Bubbles, mal rot, mal rosé. It is what it is!</p>
