@@ -36,7 +36,7 @@
         <main class="content">
                 <div class="sixpack-header">
                         <hgroup>
-                                <h2>Limited outer space edition of 250</h2>
+                                <h2>SOLD OUT: Limited outer space edition of 250</h2>
                                 <h1>Sixpack of Love <span class="emoji">👾</span></h1>
                         </hgroup>
                         <picture>
@@ -47,6 +47,7 @@
                                 <img class="sixpack" tabindex="0" src="/imgs/sixpack-small.jpg" alt="Sixpack of Love Karton mit 6 Weinflaschen" width="1000" />
                         </picture>
                 </div>
+                <p>SOLD OUT: Das 2022er Sixpack of Love ist ausverkauft. Hol dir eines der verbleibenden <a href="https://konsum3000.lehmanns.xyz/products/sixpack-of-love-2023">Sixpack of Love 2023</a></p>
                 <p>Im Herbst 2022 erntet Satellites of Love Association Pinot Noir Trauben 🍇 in Brentjong und bringt sie nach La Neuveville zu Fabien Henriot, in Leuk zu Vin d'oeuvre, nach Bern zu Bruno Bucher, in Ayent zu Chèrouche, nach Zürich zur Domaine Baby Angel und ins Bahnhöfli Ostermundigen zu Satellites of Love Association.</p>
                 <p>Et voilà: Vanessa Atalanta, Funkloch, Ciervo, Balsam, Pinot D'angio, Oh le lux!<br>
                 Sechs wild vergorene Pinot Noir Interpretationen — mal ungestüm, mal elegant, mal Bubbles, mal rot, mal rosé. It is what it is!</p>
@@ -75,8 +76,19 @@
                 </p>
 
                 <footer lang="en">
-                        <div class="credits"><span>Made with ❤️‍🔥 &nbsp;by&nbsp;</span><a href="https://yokai.ch">Yokai</a></div>
-                        <div class="legal"><a title="brentjong.space legal policy. We are not evil 😘" href="/legal">Legal</a></div>
+                        <ul class="footer-list social">
+                                <li><a href="mailto:coucou@brentjong.space">Mail</a></li>
+                                <li><a href="https://www.raisin.digital/en/artisans/natural-winemakers/satellites-of-love-satellites-of-love-association-27090/">Raisin</a></li>
+                                <li><a href="https://www.instagram.com/satellites.of.love/">Instagram</a></li>
+                                <li class="hidden"><a href="https://swiss.social/@satellites_of_love">Mastodon</a></li>
+                                <li><a href="www.youtube.com/@satellitesoflove">Youtube</a></li>
+                                <li><a href="https://github.com/satellites-of-love">GitHub</a></li>
+                                <li><a href="https://ch.linkedin.com/company/satellites-of-love-association">LinkedIn</a></li>
+                        </ul>
+                        <ul class="footer-list legal">
+                                <li><a title="brentjong.space legal policy. We are not evil 😘" href="/legal">Legal</a></li>
+                                <li>Made with ❤️‍🔥&nbsp;by&nbsp;<a href="https://yokai.ch">Yokai</a></li>
+                        </ul>
                 </footer>
                 <div class="galaxy" role="presentation"></div>
         </main>

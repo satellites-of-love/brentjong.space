@@ -62,8 +62,19 @@
                 </p>
 
                 <footer lang="en">
-                        <div class="credits"><span>Made with ❤️‍🔥 &nbsp;by&nbsp;</span><a href="https://yokai.ch">Yokai</a></div>
-                        <div class="legal"><a title="brentjong.space legal policy. We are not evil 😘" href="/legal">Legal</a></div>
+                        <ul class="footer-list social">
+                                <li><a href="mailto:coucou@brentjong.space">Mail</a></li>
+                                <li><a href="https://www.raisin.digital/en/artisans/natural-winemakers/satellites-of-love-satellites-of-love-association-27090/">Raisin</a></li>
+                                <li><a href="https://www.instagram.com/satellites.of.love/">Instagram</a></li>
+                                <li class="hidden"><a href="https://swiss.social/@satellites_of_love">Mastodon</a></li>
+                                <li><a href="www.youtube.com/@satellitesoflove">Youtube</a></li>
+                                <li><a href="https://github.com/satellites-of-love">GitHub</a></li>
+                                <li><a href="https://ch.linkedin.com/company/satellites-of-love-association">LinkedIn</a></li>
+                        </ul>
+                        <ul class="footer-list legal">
+                                <li><a title="brentjong.space legal policy. We are not evil 😘" href="/legal">Legal</a></li>
+                                <li>Made with ❤️‍🔥&nbsp;by&nbsp;<a href="https://yokai.ch">Yokai</a></li>
+                        </ul>
                 </footer>
                 <div class="galaxy" role="presentation"></div>
         </main>
