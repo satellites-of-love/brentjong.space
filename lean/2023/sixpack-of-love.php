@@ -37,7 +37,7 @@
                 <div class="sixpack-header">
                         <hgroup>
                                 <h2>Limited outer space edition — 1/100</h2>
-                                <h1>Sixpack of Love 2023<span class="emoji">👾</span></h1>
+                                <h1>Sixpack of Love 2023 <span class="emoji">👾</span></h1>
                         </hgroup>
                         <picture>
                                 <source srcset="/imgs/sixpack-2023.jpg" type="image/jpg" media="(min-width: 2561px)" width="2000px" />
