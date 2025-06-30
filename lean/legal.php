@@ -50,7 +50,7 @@
                                 <li><a href="https://www.raisin.digital/en/artisans/natural-winemakers/satellites-of-love-satellites-of-love-association-27090/">Raisin</a></li>
                                 <li><a href="https://www.instagram.com/satellites.of.love/">Instagram</a></li>
                                 <li class="hidden"><a href="https://swiss.social/@satellites_of_love">Mastodon</a></li>
-                                <li><a href="www.youtube.com/@satellitesoflove">Youtube</a></li>
+                                <li><a href="https://www.youtube.com/@satellitesoflove">Youtube</a></li>
                                 <li><a href="https://github.com/satellites-of-love">GitHub</a></li>
                                 <li><a href="https://ch.linkedin.com/company/satellites-of-love-association">LinkedIn</a></li>
                         </ul>
